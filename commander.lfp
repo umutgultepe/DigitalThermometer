@@ -1,0 +1,24 @@
+# begin LFP file D:\Xilinx\bin\termproject\commander.lfp
+designfile commander.ngd
+IO_GROUP "temprature"  ;
+IO_GROUP "selectorx"  ;
+IO_GROUP "segmentx"  ;
+NET "temprature<7>" IO_GROUP="temprature"  ;
+NET "temprature<6>" IO_GROUP="temprature"  ;
+NET "temprature<5>" IO_GROUP="temprature"  ;
+NET "temprature<4>" IO_GROUP="temprature"  ;
+NET "temprature<3>" IO_GROUP="temprature"  ;
+NET "temprature<2>" IO_GROUP="temprature"  ;
+NET "temprature<1>" IO_GROUP="temprature"  ;
+NET "temprature<0>" IO_GROUP="temprature"  ;
+NET "selectorx<3>" IO_GROUP="selectorx"  ;
+NET "selectorx<2>" IO_GROUP="selectorx"  ;
+NET "selectorx<1>" IO_GROUP="selectorx"  ;
+NET "selectorx<0>" IO_GROUP="selectorx"  ;
+NET "segmentx<6>" IO_GROUP="segmentx"  ;
+NET "segmentx<5>" IO_GROUP="segmentx"  ;
+NET "segmentx<4>" IO_GROUP="segmentx"  ;
+NET "segmentx<3>" IO_GROUP="segmentx"  ;
+NET "segmentx<2>" IO_GROUP="segmentx"  ;
+NET "segmentx<1>" IO_GROUP="segmentx"  ;
+NET "segmentx<0>" IO_GROUP="segmentx"  ;

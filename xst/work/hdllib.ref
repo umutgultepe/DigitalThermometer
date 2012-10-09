@@ -1,0 +1,16 @@
+AR segmentdriver archdriver D:/termproject/segmentdriver.vhd sub00/vhpl07
+AR vgadriver behavioral D:/termproject/vgadriver.vhd sub00/vhpl11
+AR commander behavioral D:/termproject/Commander.vhd sub00/vhpl15
+AR divider behavioral D:/termproject/divider.vhd sub00/vhpl03
+AR wrdivider behavioral D:/termproject/wrdivider.vhd sub00/vhpl13
+EN keyboarddriver NULL D:/termproject/keyboardriver.vhd sub00/vhpl08
+AR keyboarddriver behavioral D:/termproject/keyboardriver.vhd sub00/vhpl09
+EN vgadriver NULL D:/termproject/vgadriver.vhd sub00/vhpl10
+EN segment NULL D:/termproject/segment.vhd sub00/vhpl04
+EN divider NULL D:/termproject/divider.vhd sub00/vhpl02
+EN commander NULL D:/termproject/Commander.vhd sub00/vhpl14
+EN wrdivider NULL D:/termproject/wrdivider.vhd sub00/vhpl12
+EN segmentdriver NULL D:/termproject/segmentdriver.vhd sub00/vhpl06
+AR segment behavioral D:/termproject/segment.vhd sub00/vhpl05
+AR decoder behavioral D:/termproject/decoder.vhd sub00/vhpl01
+EN decoder NULL D:/termproject/decoder.vhd sub00/vhpl00

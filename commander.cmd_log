@@ -1,0 +1,197 @@
+xst -intstyle ise -ifn __projnav/commander.xst -ofn commander.syr
+ngdbuild -intstyle ise -dd e:\termproject/_ngo -i  -p xc2s50-pq208-6 commander.ngc commander.ngd
+map -intstyle ise -p xc2s50-pq208-6 -cm area -pr b -k 4 -c 100 -tx off -o commander_map.ncd commander.ngd commander.pcf
+par -w -intstyle ise -ol std -t 1 commander_map.ncd commander.ncd commander.pcf
+trce -intstyle ise -e 3 -l 3 -xml commander commander.ncd -o commander.twr commander.pcf
+xst -intstyle ise -ifn __projnav/commander.xst -ofn commander.syr
+xst -intstyle ise -ifn __projnav/commander.xst -ofn commander.syr
+ngdbuild -intstyle ise -dd d:\xilinx\bin\termproject/_ngo -i  -p xc2s50-pq208-6 commander.ngc commander.ngd
+ngdbuild -intstyle ise -dd d:\xilinx\bin\termproject/_ngo -uc commander.ucf  -p xc2s50-pq208-6 commander.ngc commander.ngd
+map -intstyle ise -p xc2s50-pq208-6 -cm area -pr b -k 4 -c 100 -tx off -o commander_map.ncd commander.ngd commander.pcf
+par -w -intstyle ise -ol std -t 1 commander_map.ncd commander.ncd commander.pcf
+trce -intstyle ise -e 3 -l 3 -xml commander commander.ncd -o commander.twr commander.pcf
+bitgen -intstyle ise -f commander.ut commander.ncd
+xst -intstyle ise -ifn __projnav/commander.xst -ofn commander.syr
+xst -intstyle ise -ifn __projnav/commander.xst -ofn commander.syr
+xst -intstyle ise -ifn __projnav/commander.xst -ofn commander.syr
+xst -intstyle ise -ifn __projnav/commander.xst -ofn commander.syr
+xst -intstyle ise -ifn __projnav/commander.xst -ofn commander.syr
+xst -intstyle ise -ifn __projnav/commander.xst -ofn commander.syr
+ngdbuild -intstyle ise -dd d:\xilinx\bin\termproject/_ngo -uc commander.ucf  -p xc2s50-pq208-6 commander.ngc commander.ngd
+ngdbuild -intstyle ise -dd d:\xilinx\bin\termproject/_ngo -i  -p xc2s50-pq208-6 commander.ngc commander.ngd
+xst -intstyle ise -ifn __projnav/commander.xst -ofn commander.syr
+xst -intstyle ise -ifn __projnav/commander.xst -ofn commander.syr
+ngdbuild -intstyle ise -dd d:\xilinx\bin\termproject/_ngo -uc commander.ucf  -p xc2s50-pq208-6 commander.ngc commander.ngd
+map -intstyle ise -p xc2s50-pq208-6 -cm area -pr b -k 4 -c 100 -tx off -o commander_map.ncd commander.ngd commander.pcf
+par -w -intstyle ise -ol std -t 1 commander_map.ncd commander.ncd commander.pcf
+trce -intstyle ise -e 3 -l 3 -xml commander commander.ncd -o commander.twr commander.pcf
+bitgen -intstyle ise -f commander.ut commander.ncd
+xst -intstyle ise -ifn __projnav/commander.xst -ofn commander.syr
+xst -intstyle ise -ifn __projnav/commander.xst -ofn commander.syr
+xst -intstyle ise -ifn __projnav/commander.xst -ofn commander.syr
+ngdbuild -intstyle ise -dd d:\xilinx\bin\termproject/_ngo -uc commander.ucf  -p xc2s50-pq208-6 commander.ngc commander.ngd
+map -intstyle ise -p xc2s50-pq208-6 -cm area -pr b -k 4 -c 100 -tx off -o commander_map.ncd commander.ngd commander.pcf
+par -w -intstyle ise -ol std -t 1 commander_map.ncd commander.ncd commander.pcf
+trce -intstyle ise -e 3 -l 3 -xml commander commander.ncd -o commander.twr commander.pcf
+bitgen -intstyle ise -f commander.ut commander.ncd
+xst -intstyle ise -ifn __projnav/commander.xst -ofn commander.syr
+xst -intstyle ise -ifn __projnav/commander.xst -ofn commander.syr
+xst -intstyle ise -ifn __projnav/commander.xst -ofn commander.syr
+ngdbuild -intstyle ise -dd d:\xilinx\bin\termproject/_ngo -uc commander.ucf  -p xc2s50-pq208-6 commander.ngc commander.ngd
+map -intstyle ise -p xc2s50-pq208-6 -cm area -pr b -k 4 -c 100 -tx off -o commander_map.ncd commander.ngd commander.pcf
+par -w -intstyle ise -ol std -t 1 commander_map.ncd commander.ncd commander.pcf
+trce -intstyle ise -e 3 -l 3 -xml commander commander.ncd -o commander.twr commander.pcf
+bitgen -intstyle ise -f commander.ut commander.ncd
+xst -intstyle ise -ifn __projnav/commander.xst -ofn commander.syr
+ngdbuild -intstyle ise -dd d:\xilinx\bin\termproject/_ngo -uc commander.ucf  -p xc2s50-pq208-6 commander.ngc commander.ngd
+map -intstyle ise -p xc2s50-pq208-6 -cm area -pr b -k 4 -c 100 -tx off -o commander_map.ncd commander.ngd commander.pcf
+par -w -intstyle ise -ol std -t 1 commander_map.ncd commander.ncd commander.pcf
+trce -intstyle ise -e 3 -l 3 -xml commander commander.ncd -o commander.twr commander.pcf
+bitgen -intstyle ise -f commander.ut commander.ncd
+xst -intstyle ise -ifn __projnav/commander.xst -ofn commander.syr
+xst -intstyle ise -ifn __projnav/commander.xst -ofn commander.syr
+xst -intstyle ise -ifn __projnav/commander.xst -ofn commander.syr
+xst -intstyle ise -ifn __projnav/commander.xst -ofn commander.syr
+xst -intstyle ise -ifn __projnav/commander.xst -ofn commander.syr
+ngdbuild -intstyle ise -dd d:\xilinx\bin\termproject/_ngo -uc commander.ucf  -p xc2s50-pq208-6 commander.ngc commander.ngd
+map -intstyle ise -p xc2s50-pq208-6 -cm area -pr b -k 4 -c 100 -tx off -o commander_map.ncd commander.ngd commander.pcf
+par -w -intstyle ise -ol std -t 1 commander_map.ncd commander.ncd commander.pcf
+trce -intstyle ise -e 3 -l 3 -xml commander commander.ncd -o commander.twr commander.pcf
+bitgen -intstyle ise -f commander.ut commander.ncd
+xst -intstyle ise -ifn __projnav/commander.xst -ofn commander.syr
+xst -intstyle ise -ifn __projnav/commander.xst -ofn commander.syr
+xst -intstyle ise -ifn __projnav/commander.xst -ofn commander.syr
+ngdbuild -intstyle ise -dd d:\xilinx\bin\termproject/_ngo -uc commander.ucf  -p xc2s50-pq208-6 commander.ngc commander.ngd
+map -intstyle ise -p xc2s50-pq208-6 -cm area -pr b -k 4 -c 100 -tx off -o commander_map.ncd commander.ngd commander.pcf
+par -w -intstyle ise -ol std -t 1 commander_map.ncd commander.ncd commander.pcf
+trce -intstyle ise -e 3 -l 3 -xml commander commander.ncd -o commander.twr commander.pcf
+bitgen -intstyle ise -f commander.ut commander.ncd
+xst -intstyle ise -ifn __projnav/commander.xst -ofn commander.syr
+xst -intstyle ise -ifn __projnav/commander.xst -ofn commander.syr
+ngdbuild -intstyle ise -dd d:\xilinx\bin\termproject/_ngo -uc commander.ucf  -p xc2s50-pq208-6 commander.ngc commander.ngd
+map -intstyle ise -p xc2s50-pq208-6 -cm area -pr b -k 4 -c 100 -tx off -o commander_map.ncd commander.ngd commander.pcf
+par -w -intstyle ise -ol std -t 1 commander_map.ncd commander.ncd commander.pcf
+trce -intstyle ise -e 3 -l 3 -xml commander commander.ncd -o commander.twr commander.pcf
+bitgen -intstyle ise -f commander.ut commander.ncd
+xst -intstyle ise -ifn __projnav/commander.xst -ofn commander.syr
+ngdbuild -intstyle ise -dd d:\xilinx\bin\termproject/_ngo -uc commander.ucf  -p xc2s50-pq208-6 commander.ngc commander.ngd
+map -intstyle ise -p xc2s50-pq208-6 -cm area -pr b -k 4 -c 100 -tx off -o commander_map.ncd commander.ngd commander.pcf
+par -w -intstyle ise -ol std -t 1 commander_map.ncd commander.ncd commander.pcf
+trce -intstyle ise -e 3 -l 3 -xml commander commander.ncd -o commander.twr commander.pcf
+bitgen -intstyle ise -f commander.ut commander.ncd
+xst -intstyle ise -ifn __projnav/commander.xst -ofn commander.syr
+xst -intstyle ise -ifn __projnav/commander.xst -ofn commander.syr
+xst -intstyle ise -ifn __projnav/commander.xst -ofn commander.syr
+xst -intstyle ise -ifn __projnav/commander.xst -ofn commander.syr
+xst -intstyle ise -ifn __projnav/commander.xst -ofn commander.syr
+xst -intstyle ise -ifn __projnav/commander.xst -ofn commander.syr
+xst -intstyle ise -ifn __projnav/commander.xst -ofn commander.syr
+xst -intstyle ise -ifn __projnav/commander.xst -ofn commander.syr
+xst -intstyle ise -ifn __projnav/commander.xst -ofn commander.syr
+xst -intstyle ise -ifn __projnav/commander.xst -ofn commander.syr
+xst -intstyle ise -ifn __projnav/commander.xst -ofn commander.syr
+xst -intstyle ise -ifn __projnav/commander.xst -ofn commander.syr
+xst -intstyle ise -ifn __projnav/commander.xst -ofn commander.syr
+xst -intstyle ise -ifn __projnav/commander.xst -ofn commander.syr
+ngdbuild -intstyle ise -dd d:\xilinx\bin\termproject/_ngo -uc commander.ucf  -p xc2s50-pq208-6 commander.ngc commander.ngd
+map -intstyle ise -p xc2s50-pq208-6 -cm area -pr b -k 4 -c 100 -tx off -o commander_map.ncd commander.ngd commander.pcf
+par -w -intstyle ise -ol std -t 1 commander_map.ncd commander.ncd commander.pcf
+trce -intstyle ise -e 3 -l 3 -xml commander commander.ncd -o commander.twr commander.pcf
+bitgen -intstyle ise -f commander.ut commander.ncd
+xst -intstyle ise -ifn __projnav/commander.xst -ofn commander.syr
+ngdbuild -intstyle ise -dd d:\xilinx\bin\termproject/_ngo -uc commander.ucf  -p xc2s50-pq208-6 commander.ngc commander.ngd
+map -intstyle ise -p xc2s50-pq208-6 -cm area -pr b -k 4 -c 100 -tx off -o commander_map.ncd commander.ngd commander.pcf
+par -w -intstyle ise -ol std -t 1 commander_map.ncd commander.ncd commander.pcf
+trce -intstyle ise -e 3 -l 3 -xml commander commander.ncd -o commander.twr commander.pcf
+bitgen -intstyle ise -f commander.ut commander.ncd
+xst -intstyle ise -ifn __projnav/commander.xst -ofn commander.syr
+xst -intstyle ise -ifn __projnav/commander.xst -ofn commander.syr
+ngdbuild -intstyle ise -dd d:\xilinx\bin\termproject/_ngo -uc commander.ucf  -p xc2s50-pq208-6 commander.ngc commander.ngd
+map -intstyle ise -p xc2s50-pq208-6 -cm area -pr b -k 4 -c 100 -tx off -o commander_map.ncd commander.ngd commander.pcf
+par -w -intstyle ise -ol std -t 1 commander_map.ncd commander.ncd commander.pcf
+trce -intstyle ise -e 3 -l 3 -xml commander commander.ncd -o commander.twr commander.pcf
+bitgen -intstyle ise -f commander.ut commander.ncd
+xst -intstyle ise -ifn __projnav/commander.xst -ofn commander.syr
+ngdbuild -intstyle ise -dd d:\xilinx\bin\termproject/_ngo -uc commander.ucf  -p xc2s50-pq208-6 commander.ngc commander.ngd
+map -intstyle ise -p xc2s50-pq208-6 -cm area -pr b -k 4 -c 100 -tx off -o commander_map.ncd commander.ngd commander.pcf
+par -w -intstyle ise -ol std -t 1 commander_map.ncd commander.ncd commander.pcf
+trce -intstyle ise -e 3 -l 3 -xml commander commander.ncd -o commander.twr commander.pcf
+bitgen -intstyle ise -f commander.ut commander.ncd
+xst -intstyle ise -ifn __projnav/commander.xst -ofn commander.syr
+xst -intstyle ise -ifn __projnav/commander.xst -ofn commander.syr
+ngdbuild -intstyle ise -dd d:\xilinx\bin\termproject/_ngo -uc commander.ucf  -p xc2s50-pq208-6 commander.ngc commander.ngd
+map -intstyle ise -p xc2s50-pq208-6 -cm area -pr b -k 4 -c 100 -tx off -o commander_map.ncd commander.ngd commander.pcf
+par -w -intstyle ise -ol std -t 1 commander_map.ncd commander.ncd commander.pcf
+trce -intstyle ise -e 3 -l 3 -xml commander commander.ncd -o commander.twr commander.pcf
+bitgen -intstyle ise -f commander.ut commander.ncd
+xst -intstyle ise -ifn __projnav/commander.xst -ofn commander.syr
+ngdbuild -intstyle ise -dd d:\xilinx\bin\termproject/_ngo -uc commander.ucf  -p xc2s50-pq208-6 commander.ngc commander.ngd
+map -intstyle ise -p xc2s50-pq208-6 -cm area -pr b -k 4 -c 100 -tx off -o commander_map.ncd commander.ngd commander.pcf
+par -w -intstyle ise -ol std -t 1 commander_map.ncd commander.ncd commander.pcf
+trce -intstyle ise -e 3 -l 3 -xml commander commander.ncd -o commander.twr commander.pcf
+bitgen -intstyle ise -f commander.ut commander.ncd
+xst -intstyle ise -ifn __projnav/commander.xst -ofn commander.syr
+xst -intstyle ise -ifn __projnav/commander.xst -ofn commander.syr
+ngdbuild -intstyle ise -dd d:\xilinx\bin\termproject/_ngo -uc commander.ucf  -p xc2s50-pq208-6 commander.ngc commander.ngd
+map -intstyle ise -p xc2s50-pq208-6 -cm area -pr b -k 4 -c 100 -tx off -o commander_map.ncd commander.ngd commander.pcf
+par -w -intstyle ise -ol std -t 1 commander_map.ncd commander.ncd commander.pcf
+trce -intstyle ise -e 3 -l 3 -xml commander commander.ncd -o commander.twr commander.pcf
+bitgen -intstyle ise -f commander.ut commander.ncd
+xst -intstyle ise -ifn __projnav/commander.xst -ofn commander.syr
+ngdbuild -intstyle ise -dd d:\xilinx\bin\termproject/_ngo -uc commander.ucf  -p xc2s50-pq208-6 commander.ngc commander.ngd
+map -intstyle ise -p xc2s50-pq208-6 -cm area -pr b -k 4 -c 100 -tx off -o commander_map.ncd commander.ngd commander.pcf
+par -w -intstyle ise -ol std -t 1 commander_map.ncd commander.ncd commander.pcf
+trce -intstyle ise -e 3 -l 3 -xml commander commander.ncd -o commander.twr commander.pcf
+bitgen -intstyle ise -f commander.ut commander.ncd
+xst -intstyle ise -ifn __projnav/commander.xst -ofn commander.syr
+ngdbuild -intstyle ise -dd d:\xilinx\bin\termproject/_ngo -uc commander.ucf  -p xc2s50-pq208-6 commander.ngc commander.ngd
+map -intstyle ise -p xc2s50-pq208-6 -cm area -pr b -k 4 -c 100 -tx off -o commander_map.ncd commander.ngd commander.pcf
+par -w -intstyle ise -ol std -t 1 commander_map.ncd commander.ncd commander.pcf
+trce -intstyle ise -e 3 -l 3 -xml commander commander.ncd -o commander.twr commander.pcf
+bitgen -intstyle ise -f commander.ut commander.ncd
+xst -intstyle ise -ifn __projnav/commander.xst -ofn commander.syr
+ngdbuild -intstyle ise -dd d:\xilinx\bin\termproject/_ngo -uc commander.ucf  -p xc2s50-pq208-6 commander.ngc commander.ngd
+map -intstyle ise -p xc2s50-pq208-6 -cm area -pr b -k 4 -c 100 -tx off -o commander_map.ncd commander.ngd commander.pcf
+par -w -intstyle ise -ol std -t 1 commander_map.ncd commander.ncd commander.pcf
+trce -intstyle ise -e 3 -l 3 -xml commander commander.ncd -o commander.twr commander.pcf
+bitgen -intstyle ise -f commander.ut commander.ncd
+xst -intstyle ise -ifn __projnav/commander.xst -ofn commander.syr
+xst -intstyle ise -ifn __projnav/commander.xst -ofn commander.syr
+ngdbuild -intstyle ise -dd d:\xilinx\bin\termproject/_ngo -uc commander.ucf  -p xc2s50-pq208-6 commander.ngc commander.ngd
+map -intstyle ise -p xc2s50-pq208-6 -cm area -pr b -k 4 -c 100 -tx off -o commander_map.ncd commander.ngd commander.pcf
+par -w -intstyle ise -ol std -t 1 commander_map.ncd commander.ncd commander.pcf
+trce -intstyle ise -e 3 -l 3 -xml commander commander.ncd -o commander.twr commander.pcf
+bitgen -intstyle ise -f commander.ut commander.ncd
+xst -intstyle ise -ifn __projnav/commander.xst -ofn commander.syr
+ngdbuild -intstyle ise -dd d:\xilinx\bin\termproject/_ngo -uc commander.ucf  -p xc2s50-pq208-6 commander.ngc commander.ngd
+map -intstyle ise -p xc2s50-pq208-6 -cm area -pr b -k 4 -c 100 -tx off -o commander_map.ncd commander.ngd commander.pcf
+par -w -intstyle ise -ol std -t 1 commander_map.ncd commander.ncd commander.pcf
+trce -intstyle ise -e 3 -l 3 -xml commander commander.ncd -o commander.twr commander.pcf
+bitgen -intstyle ise -f commander.ut commander.ncd
+xst -intstyle ise -ifn __projnav/commander.xst -ofn commander.syr
+ngdbuild -intstyle ise -dd d:\xilinx\bin\termproject/_ngo -uc commander.ucf  -p xc2s50-pq208-6 commander.ngc commander.ngd
+map -intstyle ise -p xc2s50-pq208-6 -cm area -pr b -k 4 -c 100 -tx off -o commander_map.ncd commander.ngd commander.pcf
+par -w -intstyle ise -ol std -t 1 commander_map.ncd commander.ncd commander.pcf
+trce -intstyle ise -e 3 -l 3 -xml commander commander.ncd -o commander.twr commander.pcf
+bitgen -intstyle ise -f commander.ut commander.ncd
+xst -intstyle ise -ifn __projnav/commander.xst -ofn commander.syr
+ngdbuild -intstyle ise -dd d:\xilinx\bin\termproject/_ngo -uc commander.ucf  -p xc2s50-pq208-6 commander.ngc commander.ngd
+map -intstyle ise -p xc2s50-pq208-6 -cm area -pr b -k 4 -c 100 -tx off -o commander_map.ncd commander.ngd commander.pcf
+par -w -intstyle ise -ol std -t 1 commander_map.ncd commander.ncd commander.pcf
+trce -intstyle ise -e 3 -l 3 -xml commander commander.ncd -o commander.twr commander.pcf
+bitgen -intstyle ise -f commander.ut commander.ncd
+xst -intstyle ise -ifn __projnav/commander.xst -ofn commander.syr
+xst -intstyle ise -ifn __projnav/commander.xst -ofn commander.syr
+ngdbuild -intstyle ise -dd d:\xilinx\bin\termproject/_ngo -uc commander.ucf  -p xc2s50-pq208-6 commander.ngc commander.ngd
+map -intstyle ise -p xc2s50-pq208-6 -cm area -pr b -k 4 -c 100 -tx off -o commander_map.ncd commander.ngd commander.pcf
+par -w -intstyle ise -ol std -t 1 commander_map.ncd commander.ncd commander.pcf
+trce -intstyle ise -e 3 -l 3 -xml commander commander.ncd -o commander.twr commander.pcf
+bitgen -intstyle ise -f commander.ut commander.ncd
+xst -intstyle ise -ifn __projnav/commander.xst -ofn commander.syr
+ngdbuild -intstyle ise -dd d:\xilinx\bin\termproject/_ngo -uc commander.ucf  -p xc2s50-pq208-6 commander.ngc commander.ngd
+map -intstyle ise -p xc2s50-pq208-6 -cm area -pr b -k 4 -c 100 -tx off -o commander_map.ncd commander.ngd commander.pcf
+par -w -intstyle ise -ol std -t 1 commander_map.ncd commander.ncd commander.pcf
+trce -intstyle ise -e 3 -l 3 -xml commander commander.ncd -o commander.twr commander.pcf
+bitgen -intstyle ise -f commander.ut commander.ncd
+xst -intstyle ise -ifn __projnav/commander.xst -ofn commander.syr
+ngdbuild -intstyle ise -dd d:\termproject/_ngo -uc commander.ucf  -p xc2s50-pq208-6 commander.ngc commander.ngd

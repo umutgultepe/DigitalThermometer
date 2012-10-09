@@ -1,0 +1,2879 @@
+# XST (Creating Lso File) : 
+commander.lso
+# xst flow : RunXST
+commander.syr
+commander.prj
+commander.sprj
+commander.ana
+commander.stx
+commander.cmd_log
+commander.ngc
+commander.ngr
+# Implmentation : Translate
+__projnav/ngdbuild.err
+__projnav/ednTOngd_tcl.rsp
+e:\termproject/_ngo
+commander.ngd
+commander_ngdbuild.nav
+commander.bld
+.untf
+commander.cmd_log
+# Implementation : Map
+commander_map.ncd
+commander.ngm
+commander.pcf
+commander.nc1
+commander.mrp
+commander_map.mrp
+commander.mdf
+__projnav/map.log
+commander.cmd_log
+MAP_NO_GUIDE_FILE_CPF "commander"
+# Implmentation : Post-Place & Route Timing
+__projnav/ncdTOtwr_tcl.rsp
+__projnav/posttrc.log
+commander.twr
+commander.twx
+commander.tsi
+commander.cmd_log
+# Implmentation : Place & Route
+__projnav/nc1TOncd_tcl.rsp
+commander.ncd
+commander.par
+commander.pad
+commander_pad.txt
+commander_pad.csv
+commander.pad_txt
+commander.dly
+reportgen.log
+commander.xpi
+commander.grf
+commander.itr
+commander_last_par.ncd
+__projnav/par.log
+commander.placed_ncd_tracker
+commander.routed_ncd_tracker
+commander.cmd_log
+PAR_NO_GUIDE_FILE_CPF "commander"
+# XST (Creating Lso File) : 
+commander.lso
+# xst flow : RunXST
+commander.syr
+commander.prj
+commander.sprj
+commander.ana
+commander.stx
+commander.cmd_log
+commander.ngc
+commander.ngr
+# XST (Creating Lso File) : 
+commander.lso
+# xst flow : RunXST
+commander.syr
+commander.prj
+commander.sprj
+commander.ana
+commander.stx
+commander.cmd_log
+commander.ngc
+commander.ngr
+# Implmentation : Translate
+__projnav/ngdbuild.err
+__projnav/ednTOngd_tcl.rsp
+d:\xilinx\bin\termproject/_ngo
+commander.ngd
+commander_ngdbuild.nav
+commander.bld
+.untf
+commander.cmd_log
+# Assign Package Pins
+__projnav/parentAssignPackagePinsApp_tcl.rsp
+# Assign Package Pins
+__projnav/parentAssignPackagePinsApp_tcl.rsp
+# Implmentation : Translate
+__projnav/ngdbuild.err
+__projnav/ednTOngd_tcl.rsp
+d:\xilinx\bin\termproject/_ngo
+commander.ngd
+commander_ngdbuild.nav
+commander.bld
+commander.ucf.untf
+commander.cmd_log
+# Implementation : Map
+commander_map.ncd
+commander.ngm
+commander.pcf
+commander.nc1
+commander.mrp
+commander_map.mrp
+commander.mdf
+__projnav/map.log
+commander.cmd_log
+MAP_NO_GUIDE_FILE_CPF "commander"
+# Implmentation : Post-Place & Route Timing
+__projnav/ncdTOtwr_tcl.rsp
+__projnav/posttrc.log
+commander.twr
+commander.twx
+commander.tsi
+commander.cmd_log
+# Implmentation : Place & Route
+__projnav/nc1TOncd_tcl.rsp
+commander.ncd
+commander.par
+commander.pad
+commander_pad.txt
+commander_pad.csv
+commander.pad_txt
+commander.dly
+reportgen.log
+commander.xpi
+commander.grf
+commander.itr
+commander_last_par.ncd
+__projnav/par.log
+commander.placed_ncd_tracker
+commander.routed_ncd_tracker
+commander.cmd_log
+PAR_NO_GUIDE_FILE_CPF "commander"
+# Generate Programming File
+__projnav/commander_ncdTOut_tcl.rsp
+__projnav/bitgen.rsp
+bitgen.ut
+commander.ut
+# Generate Programming File
+commander.bgn
+commander.rbt
+commander.ll
+commander.msk
+commander.drc
+commander.nky
+commander.bit
+commander.bin
+commander.isc
+commander.cmd_log
+# Configure Device (iMPACT)
+commander.prm
+commander.isc
+commander.svf
+xilinx.sys
+commander.mcs
+commander.exo
+commander.hex
+commander.tek
+commander.dst
+commander.dst_compressed
+commander.mpm
+_impact.cmd
+_impact.log
+# Configure Device (iMPACT)
+commander.prm
+commander.isc
+commander.svf
+xilinx.sys
+commander.mcs
+commander.exo
+commander.hex
+commander.tek
+commander.dst
+commander.dst_compressed
+commander.mpm
+_impact.cmd
+_impact.log
+# XST (Creating Lso File) : 
+commander.lso
+# xst flow : RunXST
+commander.syr
+commander.prj
+commander.sprj
+commander.ana
+commander.stx
+commander.cmd_log
+commander.ngc
+commander.ngr
+# XST (Creating Lso File) : 
+commander.lso
+# xst flow : RunXST
+commander.syr
+commander.prj
+commander.sprj
+commander.ana
+commander.stx
+commander.cmd_log
+commander.ngc
+commander.ngr
+# XST (Creating Lso File) : 
+commander.lso
+# xst flow : RunXST
+commander.syr
+commander.prj
+commander.sprj
+commander.ana
+commander.stx
+commander.cmd_log
+commander.ngc
+commander.ngr
+# XST (Creating Lso File) : 
+commander.lso
+# xst flow : RunXST
+commander.syr
+commander.prj
+commander.sprj
+commander.ana
+commander.stx
+commander.cmd_log
+commander.ngc
+commander.ngr
+# XST (Creating Lso File) : 
+commander.lso
+# xst flow : RunXST
+commander.syr
+commander.prj
+commander.sprj
+commander.ana
+commander.stx
+commander.cmd_log
+commander.ngc
+commander.ngr
+# xst flow : RunXST
+commander.syr
+commander.prj
+commander.sprj
+commander.ana
+commander.stx
+commander.cmd_log
+commander.ngc
+commander.ngr
+# Implmentation : Translate
+__projnav/ngdbuild.err
+__projnav/ednTOngd_tcl.rsp
+d:\xilinx\bin\termproject/_ngo
+commander.ngd
+commander_ngdbuild.nav
+commander.bld
+commander.ucf.untf
+commander.cmd_log
+# Implmentation : Translate
+__projnav/ngdbuild.err
+__projnav/ednTOngd_tcl.rsp
+d:\xilinx\bin\termproject/_ngo
+commander.ngd
+commander_ngdbuild.nav
+commander.bld
+.untf
+commander.cmd_log
+# Assign Package Pins
+__projnav/parentAssignPackagePinsApp_tcl.rsp
+# Assign Package Pins
+__projnav/parentAssignPackagePinsApp_tcl.rsp
+# XST (Creating Lso File) : 
+commander.lso
+# xst flow : RunXST
+commander.syr
+commander.prj
+commander.sprj
+commander.ana
+commander.stx
+commander.cmd_log
+commander.ngc
+commander.ngr
+# XST (Creating Lso File) : 
+commander.lso
+# xst flow : RunXST
+commander.syr
+commander.prj
+commander.sprj
+commander.ana
+commander.stx
+commander.cmd_log
+commander.ngc
+commander.ngr
+# Implmentation : Translate
+__projnav/ngdbuild.err
+__projnav/ednTOngd_tcl.rsp
+d:\xilinx\bin\termproject/_ngo
+commander.ngd
+commander_ngdbuild.nav
+commander.bld
+commander.ucf.untf
+commander.cmd_log
+# Implementation : Map
+commander_map.ncd
+commander.ngm
+commander.pcf
+commander.nc1
+commander.mrp
+commander_map.mrp
+commander.mdf
+__projnav/map.log
+commander.cmd_log
+MAP_NO_GUIDE_FILE_CPF "commander"
+# Implmentation : Post-Place & Route Timing
+__projnav/ncdTOtwr_tcl.rsp
+__projnav/posttrc.log
+commander.twr
+commander.twx
+commander.tsi
+commander.cmd_log
+# Implmentation : Place & Route
+__projnav/nc1TOncd_tcl.rsp
+commander.ncd
+commander.par
+commander.pad
+commander_pad.txt
+commander_pad.csv
+commander.pad_txt
+commander.dly
+reportgen.log
+commander.xpi
+commander.grf
+commander.itr
+commander_last_par.ncd
+__projnav/par.log
+commander.placed_ncd_tracker
+commander.routed_ncd_tracker
+commander.cmd_log
+PAR_NO_GUIDE_FILE_CPF "commander"
+# Generate Programming File
+__projnav/commander_ncdTOut_tcl.rsp
+__projnav/bitgen.rsp
+bitgen.ut
+commander.ut
+# Generate Programming File
+commander.bgn
+commander.rbt
+commander.ll
+commander.msk
+commander.drc
+commander.nky
+commander.bit
+commander.bin
+commander.isc
+commander.cmd_log
+# Configure Device (iMPACT)
+commander.prm
+commander.isc
+commander.svf
+xilinx.sys
+commander.mcs
+commander.exo
+commander.hex
+commander.tek
+commander.dst
+commander.dst_compressed
+commander.mpm
+_impact.cmd
+_impact.log
+# XST (Creating Lso File) : 
+commander.lso
+# xst flow : RunXST
+commander.syr
+commander.prj
+commander.sprj
+commander.ana
+commander.stx
+commander.cmd_log
+commander.ngc
+commander.ngr
+# XST (Creating Lso File) : 
+commander.lso
+# xst flow : RunXST
+commander.syr
+commander.prj
+commander.sprj
+commander.ana
+commander.stx
+commander.cmd_log
+commander.ngc
+commander.ngr
+# XST (Creating Lso File) : 
+commander.lso
+# xst flow : RunXST
+commander.syr
+commander.prj
+commander.sprj
+commander.ana
+commander.stx
+commander.cmd_log
+commander.ngc
+commander.ngr
+# Implmentation : Translate
+__projnav/ngdbuild.err
+__projnav/ednTOngd_tcl.rsp
+d:\xilinx\bin\termproject/_ngo
+commander.ngd
+commander_ngdbuild.nav
+commander.bld
+commander.ucf.untf
+commander.cmd_log
+# Implementation : Map
+commander_map.ncd
+commander.ngm
+commander.pcf
+commander.nc1
+commander.mrp
+commander_map.mrp
+commander.mdf
+__projnav/map.log
+commander.cmd_log
+MAP_NO_GUIDE_FILE_CPF "commander"
+# Implmentation : Post-Place & Route Timing
+__projnav/ncdTOtwr_tcl.rsp
+__projnav/posttrc.log
+commander.twr
+commander.twx
+commander.tsi
+commander.cmd_log
+# Implmentation : Place & Route
+__projnav/nc1TOncd_tcl.rsp
+commander.ncd
+commander.par
+commander.pad
+commander_pad.txt
+commander_pad.csv
+commander.pad_txt
+commander.dly
+reportgen.log
+commander.xpi
+commander.grf
+commander.itr
+commander_last_par.ncd
+__projnav/par.log
+commander.placed_ncd_tracker
+commander.routed_ncd_tracker
+commander.cmd_log
+PAR_NO_GUIDE_FILE_CPF "commander"
+# Generate Programming File
+__projnav/commander_ncdTOut_tcl.rsp
+__projnav/bitgen.rsp
+bitgen.ut
+commander.ut
+# Generate Programming File
+commander.bgn
+commander.rbt
+commander.ll
+commander.msk
+commander.drc
+commander.nky
+commander.bit
+commander.bin
+commander.isc
+commander.cmd_log
+# Configure Device (iMPACT)
+commander.prm
+commander.isc
+commander.svf
+xilinx.sys
+commander.mcs
+commander.exo
+commander.hex
+commander.tek
+commander.dst
+commander.dst_compressed
+commander.mpm
+_impact.cmd
+_impact.log
+# XST (Creating Lso File) : 
+commander.lso
+# xst flow : RunXST
+commander.syr
+commander.prj
+commander.sprj
+commander.ana
+commander.stx
+commander.cmd_log
+commander.ngc
+commander.ngr
+# XST (Creating Lso File) : 
+commander.lso
+# xst flow : RunXST
+commander.syr
+commander.prj
+commander.sprj
+commander.ana
+commander.stx
+commander.cmd_log
+commander.ngc
+commander.ngr
+# XST (Creating Lso File) : 
+commander.lso
+# xst flow : RunXST
+commander.syr
+commander.prj
+commander.sprj
+commander.ana
+commander.stx
+commander.cmd_log
+commander.ngc
+commander.ngr
+# Implmentation : Translate
+__projnav/ngdbuild.err
+__projnav/ednTOngd_tcl.rsp
+d:\xilinx\bin\termproject/_ngo
+commander.ngd
+commander_ngdbuild.nav
+commander.bld
+commander.ucf.untf
+commander.cmd_log
+# Implementation : Map
+commander_map.ncd
+commander.ngm
+commander.pcf
+commander.nc1
+commander.mrp
+commander_map.mrp
+commander.mdf
+__projnav/map.log
+commander.cmd_log
+MAP_NO_GUIDE_FILE_CPF "commander"
+# Implmentation : Post-Place & Route Timing
+__projnav/ncdTOtwr_tcl.rsp
+__projnav/posttrc.log
+commander.twr
+commander.twx
+commander.tsi
+commander.cmd_log
+# Implmentation : Place & Route
+__projnav/nc1TOncd_tcl.rsp
+commander.ncd
+commander.par
+commander.pad
+commander_pad.txt
+commander_pad.csv
+commander.pad_txt
+commander.dly
+reportgen.log
+commander.xpi
+commander.grf
+commander.itr
+commander_last_par.ncd
+__projnav/par.log
+commander.placed_ncd_tracker
+commander.routed_ncd_tracker
+commander.cmd_log
+PAR_NO_GUIDE_FILE_CPF "commander"
+# Generate Programming File
+__projnav/commander_ncdTOut_tcl.rsp
+__projnav/bitgen.rsp
+bitgen.ut
+commander.ut
+# Generate Programming File
+commander.bgn
+commander.rbt
+commander.ll
+commander.msk
+commander.drc
+commander.nky
+commander.bit
+commander.bin
+commander.isc
+commander.cmd_log
+# Configure Device (iMPACT)
+commander.prm
+commander.isc
+commander.svf
+xilinx.sys
+commander.mcs
+commander.exo
+commander.hex
+commander.tek
+commander.dst
+commander.dst_compressed
+commander.mpm
+_impact.cmd
+_impact.log
+# XST (Creating Lso File) : 
+commander.lso
+# xst flow : RunXST
+commander.syr
+commander.prj
+commander.sprj
+commander.ana
+commander.stx
+commander.cmd_log
+commander.ngc
+commander.ngr
+# Implmentation : Translate
+__projnav/ngdbuild.err
+__projnav/ednTOngd_tcl.rsp
+d:\xilinx\bin\termproject/_ngo
+commander.ngd
+commander_ngdbuild.nav
+commander.bld
+commander.ucf.untf
+commander.cmd_log
+# Implementation : Map
+commander_map.ncd
+commander.ngm
+commander.pcf
+commander.nc1
+commander.mrp
+commander_map.mrp
+commander.mdf
+__projnav/map.log
+commander.cmd_log
+MAP_NO_GUIDE_FILE_CPF "commander"
+# Implmentation : Post-Place & Route Timing
+__projnav/ncdTOtwr_tcl.rsp
+__projnav/posttrc.log
+commander.twr
+commander.twx
+commander.tsi
+commander.cmd_log
+# Implmentation : Place & Route
+__projnav/nc1TOncd_tcl.rsp
+commander.ncd
+commander.par
+commander.pad
+commander_pad.txt
+commander_pad.csv
+commander.pad_txt
+commander.dly
+reportgen.log
+commander.xpi
+commander.grf
+commander.itr
+commander_last_par.ncd
+__projnav/par.log
+commander.placed_ncd_tracker
+commander.routed_ncd_tracker
+commander.cmd_log
+PAR_NO_GUIDE_FILE_CPF "commander"
+# Generate Programming File
+__projnav/commander_ncdTOut_tcl.rsp
+__projnav/bitgen.rsp
+bitgen.ut
+commander.ut
+# Generate Programming File
+commander.bgn
+commander.rbt
+commander.ll
+commander.msk
+commander.drc
+commander.nky
+commander.bit
+commander.bin
+commander.isc
+commander.cmd_log
+# Configure Device (iMPACT)
+commander.prm
+commander.isc
+commander.svf
+xilinx.sys
+commander.mcs
+commander.exo
+commander.hex
+commander.tek
+commander.dst
+commander.dst_compressed
+commander.mpm
+_impact.cmd
+_impact.log
+# Configure Device (iMPACT)
+commander.prm
+commander.isc
+commander.svf
+xilinx.sys
+commander.mcs
+commander.exo
+commander.hex
+commander.tek
+commander.dst
+commander.dst_compressed
+commander.mpm
+_impact.cmd
+_impact.log
+# XST (Creating Lso File) : 
+vgadriver.lso
+# xst flow : RunXST
+vgadriver.syr
+vgadriver.prj
+vgadriver.sprj
+vgadriver.ana
+vgadriver.stx
+vgadriver.cmd_log
+vgadriver.ngc
+vgadriver.ngr
+# Implmentation : Translate
+__projnav/ngdbuild.err
+__projnav/ednTOngd_tcl.rsp
+d:\xilinx\bin\termproject/_ngo
+vgadriver.ngd
+vgadriver_ngdbuild.nav
+vgadriver.bld
+.untf
+vgadriver.cmd_log
+# Implementation : Map
+vgadriver_map.ncd
+vgadriver.ngm
+vgadriver.pcf
+vgadriver.nc1
+vgadriver.mrp
+vgadriver_map.mrp
+vgadriver.mdf
+__projnav/map.log
+vgadriver.cmd_log
+MAP_NO_GUIDE_FILE_CPF "vgadriver"
+# Implmentation : Post-Place & Route Timing
+__projnav/ncdTOtwr_tcl.rsp
+__projnav/posttrc.log
+vgadriver.twr
+vgadriver.twx
+vgadriver.tsi
+vgadriver.cmd_log
+# Implmentation : Place & Route
+__projnav/nc1TOncd_tcl.rsp
+vgadriver.ncd
+vgadriver.par
+vgadriver.pad
+vgadriver_pad.txt
+vgadriver_pad.csv
+vgadriver.pad_txt
+vgadriver.dly
+reportgen.log
+vgadriver.xpi
+vgadriver.grf
+vgadriver.itr
+vgadriver_last_par.ncd
+__projnav/par.log
+vgadriver.placed_ncd_tracker
+vgadriver.routed_ncd_tracker
+vgadriver.cmd_log
+PAR_NO_GUIDE_FILE_CPF "vgadriver"
+# Generate Programming File
+__projnav/vgadriver_ncdTOut_tcl.rsp
+__projnav/bitgen.rsp
+bitgen.ut
+vgadriver.ut
+# Generate Programming File
+vgadriver.bgn
+vgadriver.rbt
+vgadriver.ll
+vgadriver.msk
+vgadriver.drc
+vgadriver.nky
+vgadriver.bit
+vgadriver.bin
+vgadriver.isc
+vgadriver.cmd_log
+# Configure Device (iMPACT)
+vgadriver.prm
+vgadriver.isc
+vgadriver.svf
+xilinx.sys
+vgadriver.mcs
+vgadriver.exo
+vgadriver.hex
+vgadriver.tek
+vgadriver.dst
+vgadriver.dst_compressed
+vgadriver.mpm
+_impact.cmd
+_impact.log
+# XST (Creating Lso File) : 
+commander.lso
+# xst flow : RunXST
+commander.syr
+commander.prj
+commander.sprj
+commander.ana
+commander.stx
+commander.cmd_log
+vgadriver.ngc
+commander.ngc
+vgadriver.ngr
+commander.ngr
+# XST (Creating Lso File) : 
+commander.lso
+# xst flow : RunXST
+commander.syr
+commander.prj
+commander.sprj
+commander.ana
+commander.stx
+commander.cmd_log
+vgadriver.ngc
+commander.ngc
+vgadriver.ngr
+commander.ngr
+# XST (Creating Lso File) : 
+commander.lso
+# xst flow : RunXST
+commander.syr
+commander.prj
+commander.sprj
+commander.ana
+commander.stx
+commander.cmd_log
+vgadriver.ngc
+commander.ngc
+vgadriver.ngr
+commander.ngr
+# XST (Creating Lso File) : 
+commander.lso
+# xst flow : RunXST
+commander.syr
+commander.prj
+commander.sprj
+commander.ana
+commander.stx
+commander.cmd_log
+vgadriver.ngc
+commander.ngc
+vgadriver.ngr
+commander.ngr
+# XST (Creating Lso File) : 
+commander.lso
+# xst flow : RunXST
+commander.syr
+commander.prj
+commander.sprj
+commander.ana
+commander.stx
+commander.cmd_log
+vgadriver.ngc
+commander.ngc
+vgadriver.ngr
+commander.ngr
+# Implmentation : Translate
+__projnav/ngdbuild.err
+__projnav/ednTOngd_tcl.rsp
+d:\xilinx\bin\termproject/_ngo
+commander.ngd
+commander_ngdbuild.nav
+commander.bld
+commander.ucf.untf
+commander.cmd_log
+# Implementation : Map
+commander_map.ncd
+commander.ngm
+commander.pcf
+commander.nc1
+commander.mrp
+commander_map.mrp
+commander.mdf
+__projnav/map.log
+commander.cmd_log
+MAP_NO_GUIDE_FILE_CPF "commander"
+# Implmentation : Post-Place & Route Timing
+__projnav/ncdTOtwr_tcl.rsp
+__projnav/posttrc.log
+commander.twr
+commander.twx
+commander.tsi
+commander.cmd_log
+# Implmentation : Place & Route
+__projnav/nc1TOncd_tcl.rsp
+commander.ncd
+commander.par
+commander.pad
+commander_pad.txt
+commander_pad.csv
+commander.pad_txt
+commander.dly
+reportgen.log
+commander.xpi
+commander.grf
+commander.itr
+commander_last_par.ncd
+__projnav/par.log
+commander.placed_ncd_tracker
+commander.routed_ncd_tracker
+commander.cmd_log
+PAR_NO_GUIDE_FILE_CPF "commander"
+# Generate Programming File
+__projnav/commander_ncdTOut_tcl.rsp
+__projnav/bitgen.rsp
+bitgen.ut
+commander.ut
+# Generate Programming File
+commander.bgn
+commander.rbt
+commander.ll
+commander.msk
+commander.drc
+commander.nky
+commander.bit
+commander.bin
+commander.isc
+commander.cmd_log
+# XST (Creating Lso File) : 
+commander.lso
+# xst flow : RunXST
+commander.syr
+commander.prj
+commander.sprj
+commander.ana
+commander.stx
+commander.cmd_log
+vgadriver.ngc
+commander.ngc
+vgadriver.ngr
+commander.ngr
+# XST (Creating Lso File) : 
+commander.lso
+# xst flow : RunXST
+commander.syr
+commander.prj
+commander.sprj
+commander.ana
+commander.stx
+commander.cmd_log
+vgadriver.ngc
+commander.ngc
+vgadriver.ngr
+commander.ngr
+# xst flow : RunXST
+commander.syr
+commander.prj
+commander.sprj
+commander.ana
+commander.stx
+commander.cmd_log
+vgadriver.ngc
+commander.ngc
+vgadriver.ngr
+commander.ngr
+# Implmentation : Translate
+__projnav/ngdbuild.err
+__projnav/ednTOngd_tcl.rsp
+d:\xilinx\bin\termproject/_ngo
+commander.ngd
+commander_ngdbuild.nav
+commander.bld
+commander.ucf.untf
+commander.cmd_log
+# Implementation : Map
+commander_map.ncd
+commander.ngm
+commander.pcf
+commander.nc1
+commander.mrp
+commander_map.mrp
+commander.mdf
+__projnav/map.log
+commander.cmd_log
+MAP_NO_GUIDE_FILE_CPF "commander"
+# Implmentation : Post-Place & Route Timing
+__projnav/ncdTOtwr_tcl.rsp
+__projnav/posttrc.log
+commander.twr
+commander.twx
+commander.tsi
+commander.cmd_log
+# Implmentation : Place & Route
+__projnav/nc1TOncd_tcl.rsp
+commander.ncd
+commander.par
+commander.pad
+commander_pad.txt
+commander_pad.csv
+commander.pad_txt
+commander.dly
+reportgen.log
+commander.xpi
+commander.grf
+commander.itr
+commander_last_par.ncd
+__projnav/par.log
+commander.placed_ncd_tracker
+commander.routed_ncd_tracker
+commander.cmd_log
+PAR_NO_GUIDE_FILE_CPF "commander"
+# Generate Programming File
+__projnav/commander_ncdTOut_tcl.rsp
+__projnav/bitgen.rsp
+bitgen.ut
+commander.ut
+# Generate Programming File
+commander.bgn
+commander.rbt
+commander.ll
+commander.msk
+commander.drc
+commander.nky
+commander.bit
+commander.bin
+commander.isc
+commander.cmd_log
+# XST (Creating Lso File) : 
+commander.lso
+# xst flow : RunXST
+commander.syr
+commander.prj
+commander.sprj
+commander.ana
+commander.stx
+commander.cmd_log
+vgadriver.ngc
+commander.ngc
+vgadriver.ngr
+commander.ngr
+# XST (Creating Lso File) : 
+commander.lso
+# xst flow : RunXST
+commander.syr
+commander.prj
+commander.sprj
+commander.ana
+commander.stx
+commander.cmd_log
+vgadriver.ngc
+commander.ngc
+vgadriver.ngr
+commander.ngr
+# Implmentation : Translate
+__projnav/ngdbuild.err
+__projnav/ednTOngd_tcl.rsp
+d:\xilinx\bin\termproject/_ngo
+commander.ngd
+commander_ngdbuild.nav
+commander.bld
+commander.ucf.untf
+commander.cmd_log
+# Implementation : Map
+commander_map.ncd
+commander.ngm
+commander.pcf
+commander.nc1
+commander.mrp
+commander_map.mrp
+commander.mdf
+__projnav/map.log
+commander.cmd_log
+MAP_NO_GUIDE_FILE_CPF "commander"
+# Implmentation : Post-Place & Route Timing
+__projnav/ncdTOtwr_tcl.rsp
+__projnav/posttrc.log
+commander.twr
+commander.twx
+commander.tsi
+commander.cmd_log
+# Implmentation : Place & Route
+__projnav/nc1TOncd_tcl.rsp
+commander.ncd
+commander.par
+commander.pad
+commander_pad.txt
+commander_pad.csv
+commander.pad_txt
+commander.dly
+reportgen.log
+commander.xpi
+commander.grf
+commander.itr
+commander_last_par.ncd
+__projnav/par.log
+commander.placed_ncd_tracker
+commander.routed_ncd_tracker
+commander.cmd_log
+PAR_NO_GUIDE_FILE_CPF "commander"
+# Generate Programming File
+__projnav/commander_ncdTOut_tcl.rsp
+__projnav/bitgen.rsp
+bitgen.ut
+commander.ut
+# Generate Programming File
+commander.bgn
+commander.rbt
+commander.ll
+commander.msk
+commander.drc
+commander.nky
+commander.bit
+commander.bin
+commander.isc
+commander.cmd_log
+# XST (Creating Lso File) : 
+commander.lso
+# xst flow : RunXST
+commander.syr
+commander.prj
+commander.sprj
+commander.ana
+commander.stx
+commander.cmd_log
+vgadriver.ngc
+commander.ngc
+vgadriver.ngr
+commander.ngr
+# Implmentation : Translate
+__projnav/ngdbuild.err
+__projnav/ednTOngd_tcl.rsp
+d:\xilinx\bin\termproject/_ngo
+commander.ngd
+commander_ngdbuild.nav
+commander.bld
+commander.ucf.untf
+commander.cmd_log
+# Implementation : Map
+commander_map.ncd
+commander.ngm
+commander.pcf
+commander.nc1
+commander.mrp
+commander_map.mrp
+commander.mdf
+__projnav/map.log
+commander.cmd_log
+MAP_NO_GUIDE_FILE_CPF "commander"
+# Implmentation : Post-Place & Route Timing
+__projnav/ncdTOtwr_tcl.rsp
+__projnav/posttrc.log
+commander.twr
+commander.twx
+commander.tsi
+commander.cmd_log
+# Implmentation : Place & Route
+__projnav/nc1TOncd_tcl.rsp
+commander.ncd
+commander.par
+commander.pad
+commander_pad.txt
+commander_pad.csv
+commander.pad_txt
+commander.dly
+reportgen.log
+commander.xpi
+commander.grf
+commander.itr
+commander_last_par.ncd
+__projnav/par.log
+commander.placed_ncd_tracker
+commander.routed_ncd_tracker
+commander.cmd_log
+PAR_NO_GUIDE_FILE_CPF "commander"
+# Generate Programming File
+__projnav/commander_ncdTOut_tcl.rsp
+__projnav/bitgen.rsp
+bitgen.ut
+commander.ut
+# Generate Programming File
+commander.bgn
+commander.rbt
+commander.ll
+commander.msk
+commander.drc
+commander.nky
+commander.bit
+commander.bin
+commander.isc
+commander.cmd_log
+# XST (Creating Lso File) : 
+commander.lso
+# xst flow : RunXST
+commander.syr
+commander.prj
+commander.sprj
+commander.ana
+commander.stx
+commander.cmd_log
+vgadriver.ngc
+commander.ngc
+vgadriver.ngr
+commander.ngr
+# XST (Creating Lso File) : 
+commander.lso
+# xst flow : RunXST
+commander.syr
+commander.prj
+commander.sprj
+commander.ana
+commander.stx
+commander.cmd_log
+vgadriver.ngc
+commander.ngc
+vgadriver.ngr
+commander.ngr
+# XST (Creating Lso File) : 
+commander.lso
+# xst flow : RunXST
+commander.syr
+commander.prj
+commander.sprj
+commander.ana
+commander.stx
+commander.cmd_log
+vgadriver.ngc
+commander.ngc
+vgadriver.ngr
+commander.ngr
+# XST (Creating Lso File) : 
+commander.lso
+# xst flow : RunXST
+commander.syr
+commander.prj
+commander.sprj
+commander.ana
+commander.stx
+commander.cmd_log
+vgadriver.ngc
+commander.ngc
+vgadriver.ngr
+commander.ngr
+# xst flow : RunXST
+commander.syr
+commander.prj
+commander.sprj
+commander.ana
+commander.stx
+commander.cmd_log
+vgadriver.ngc
+commander.ngc
+vgadriver.ngr
+commander.ngr
+# xst flow : RunXST
+commander.syr
+commander.prj
+commander.sprj
+commander.ana
+commander.stx
+commander.cmd_log
+vgadriver.ngc
+commander.ngc
+vgadriver.ngr
+commander.ngr
+# XST (Creating Lso File) : 
+commander.lso
+# xst flow : RunXST
+commander.syr
+commander.prj
+commander.sprj
+commander.ana
+commander.stx
+commander.cmd_log
+vgadriver.ngc
+commander.ngc
+vgadriver.ngr
+commander.ngr
+# XST (Creating Lso File) : 
+commander.lso
+# xst flow : RunXST
+commander.syr
+commander.prj
+commander.sprj
+commander.ana
+commander.stx
+commander.cmd_log
+vgadriver.ngc
+commander.ngc
+vgadriver.ngr
+commander.ngr
+# xst flow : RunXST
+commander.syr
+commander.prj
+commander.sprj
+commander.ana
+commander.stx
+commander.cmd_log
+vgadriver.ngc
+commander.ngc
+vgadriver.ngr
+commander.ngr
+# XST (Creating Lso File) : 
+commander.lso
+# xst flow : RunXST
+commander.syr
+commander.prj
+commander.sprj
+commander.ana
+commander.stx
+commander.cmd_log
+vgadriver.ngc
+commander.ngc
+vgadriver.ngr
+commander.ngr
+# xst flow : RunXST
+commander.syr
+commander.prj
+commander.sprj
+commander.ana
+commander.stx
+commander.cmd_log
+vgadriver.ngc
+commander.ngc
+vgadriver.ngr
+commander.ngr
+# xst flow : RunXST
+commander.syr
+commander.prj
+commander.sprj
+commander.ana
+commander.stx
+commander.cmd_log
+vgadriver.ngc
+commander.ngc
+vgadriver.ngr
+commander.ngr
+# XST (Creating Lso File) : 
+commander.lso
+# xst flow : RunXST
+commander.syr
+commander.prj
+commander.sprj
+commander.ana
+commander.stx
+commander.cmd_log
+vgadriver.ngc
+commander.ngc
+vgadriver.ngr
+commander.ngr
+# XST (Creating Lso File) : 
+commander.lso
+# xst flow : RunXST
+commander.syr
+commander.prj
+commander.sprj
+commander.ana
+commander.stx
+commander.cmd_log
+vgadriver.ngc
+commander.ngc
+vgadriver.ngr
+commander.ngr
+# Implmentation : Translate
+__projnav/ngdbuild.err
+__projnav/ednTOngd_tcl.rsp
+d:\xilinx\bin\termproject/_ngo
+commander.ngd
+commander_ngdbuild.nav
+commander.bld
+commander.ucf.untf
+commander.cmd_log
+# Implementation : Map
+commander_map.ncd
+commander.ngm
+commander.pcf
+commander.nc1
+commander.mrp
+commander_map.mrp
+commander.mdf
+__projnav/map.log
+commander.cmd_log
+MAP_NO_GUIDE_FILE_CPF "commander"
+# Implmentation : Post-Place & Route Timing
+__projnav/ncdTOtwr_tcl.rsp
+__projnav/posttrc.log
+commander.twr
+commander.twx
+commander.tsi
+commander.cmd_log
+# Implmentation : Place & Route
+__projnav/nc1TOncd_tcl.rsp
+commander.ncd
+commander.par
+commander.pad
+commander_pad.txt
+commander_pad.csv
+commander.pad_txt
+commander.dly
+reportgen.log
+commander.xpi
+commander.grf
+commander.itr
+commander_last_par.ncd
+__projnav/par.log
+commander.placed_ncd_tracker
+commander.routed_ncd_tracker
+commander.cmd_log
+PAR_NO_GUIDE_FILE_CPF "commander"
+# Generate Programming File
+__projnav/commander_ncdTOut_tcl.rsp
+__projnav/bitgen.rsp
+bitgen.ut
+commander.ut
+# Generate Programming File
+commander.bgn
+commander.rbt
+commander.ll
+commander.msk
+commander.drc
+commander.nky
+commander.bit
+commander.bin
+commander.isc
+commander.cmd_log
+# XST (Creating Lso File) : 
+commander.lso
+# xst flow : RunXST
+commander.syr
+commander.prj
+commander.sprj
+commander.ana
+commander.stx
+commander.cmd_log
+vgadriver.ngc
+commander.ngc
+vgadriver.ngr
+commander.ngr
+# Implmentation : Translate
+__projnav/ngdbuild.err
+__projnav/ednTOngd_tcl.rsp
+d:\xilinx\bin\termproject/_ngo
+commander.ngd
+commander_ngdbuild.nav
+commander.bld
+commander.ucf.untf
+commander.cmd_log
+# Implementation : Map
+commander_map.ncd
+commander.ngm
+commander.pcf
+commander.nc1
+commander.mrp
+commander_map.mrp
+commander.mdf
+__projnav/map.log
+commander.cmd_log
+MAP_NO_GUIDE_FILE_CPF "commander"
+# Implmentation : Post-Place & Route Timing
+__projnav/ncdTOtwr_tcl.rsp
+__projnav/posttrc.log
+commander.twr
+commander.twx
+commander.tsi
+commander.cmd_log
+# Implmentation : Place & Route
+__projnav/nc1TOncd_tcl.rsp
+commander.ncd
+commander.par
+commander.pad
+commander_pad.txt
+commander_pad.csv
+commander.pad_txt
+commander.dly
+reportgen.log
+commander.xpi
+commander.grf
+commander.itr
+commander_last_par.ncd
+__projnav/par.log
+commander.placed_ncd_tracker
+commander.routed_ncd_tracker
+commander.cmd_log
+PAR_NO_GUIDE_FILE_CPF "commander"
+# Generate Programming File
+__projnav/commander_ncdTOut_tcl.rsp
+__projnav/bitgen.rsp
+bitgen.ut
+commander.ut
+# Generate Programming File
+commander.bgn
+commander.rbt
+commander.ll
+commander.msk
+commander.drc
+commander.nky
+commander.bit
+commander.bin
+commander.isc
+commander.cmd_log
+# XST (Creating Lso File) : 
+commander.lso
+# xst flow : RunXST
+commander.syr
+commander.prj
+commander.sprj
+commander.ana
+commander.stx
+commander.cmd_log
+vgadriver.ngc
+commander.ngc
+vgadriver.ngr
+commander.ngr
+# XST (Creating Lso File) : 
+commander.lso
+# xst flow : RunXST
+commander.syr
+commander.prj
+commander.sprj
+commander.ana
+commander.stx
+commander.cmd_log
+vgadriver.ngc
+commander.ngc
+vgadriver.ngr
+commander.ngr
+# Implmentation : Translate
+__projnav/ngdbuild.err
+__projnav/ednTOngd_tcl.rsp
+d:\xilinx\bin\termproject/_ngo
+commander.ngd
+commander_ngdbuild.nav
+commander.bld
+commander.ucf.untf
+commander.cmd_log
+# Implementation : Map
+commander_map.ncd
+commander.ngm
+commander.pcf
+commander.nc1
+commander.mrp
+commander_map.mrp
+commander.mdf
+__projnav/map.log
+commander.cmd_log
+MAP_NO_GUIDE_FILE_CPF "commander"
+# Implmentation : Post-Place & Route Timing
+__projnav/ncdTOtwr_tcl.rsp
+__projnav/posttrc.log
+commander.twr
+commander.twx
+commander.tsi
+commander.cmd_log
+# Implmentation : Place & Route
+__projnav/nc1TOncd_tcl.rsp
+commander.ncd
+commander.par
+commander.pad
+commander_pad.txt
+commander_pad.csv
+commander.pad_txt
+commander.dly
+reportgen.log
+commander.xpi
+commander.grf
+commander.itr
+commander_last_par.ncd
+__projnav/par.log
+commander.placed_ncd_tracker
+commander.routed_ncd_tracker
+commander.cmd_log
+PAR_NO_GUIDE_FILE_CPF "commander"
+# Generate Programming File
+__projnav/commander_ncdTOut_tcl.rsp
+__projnav/bitgen.rsp
+bitgen.ut
+commander.ut
+# Generate Programming File
+commander.bgn
+commander.rbt
+commander.ll
+commander.msk
+commander.drc
+commander.nky
+commander.bit
+commander.bin
+commander.isc
+commander.cmd_log
+# XST (Creating Lso File) : 
+commander.lso
+# xst flow : RunXST
+commander.syr
+commander.prj
+commander.sprj
+commander.ana
+commander.stx
+commander.cmd_log
+vgadriver.ngc
+commander.ngc
+vgadriver.ngr
+commander.ngr
+# Implmentation : Translate
+__projnav/ngdbuild.err
+__projnav/ednTOngd_tcl.rsp
+d:\xilinx\bin\termproject/_ngo
+commander.ngd
+commander_ngdbuild.nav
+commander.bld
+commander.ucf.untf
+commander.cmd_log
+# Implementation : Map
+commander_map.ncd
+commander.ngm
+commander.pcf
+commander.nc1
+commander.mrp
+commander_map.mrp
+commander.mdf
+__projnav/map.log
+commander.cmd_log
+MAP_NO_GUIDE_FILE_CPF "commander"
+# Implmentation : Post-Place & Route Timing
+__projnav/ncdTOtwr_tcl.rsp
+__projnav/posttrc.log
+commander.twr
+commander.twx
+commander.tsi
+commander.cmd_log
+# Implmentation : Place & Route
+__projnav/nc1TOncd_tcl.rsp
+commander.ncd
+commander.par
+commander.pad
+commander_pad.txt
+commander_pad.csv
+commander.pad_txt
+commander.dly
+reportgen.log
+commander.xpi
+commander.grf
+commander.itr
+commander_last_par.ncd
+__projnav/par.log
+commander.placed_ncd_tracker
+commander.routed_ncd_tracker
+commander.cmd_log
+PAR_NO_GUIDE_FILE_CPF "commander"
+# Generate Programming File
+__projnav/commander_ncdTOut_tcl.rsp
+__projnav/bitgen.rsp
+bitgen.ut
+commander.ut
+# Generate Programming File
+commander.bgn
+commander.rbt
+commander.ll
+commander.msk
+commander.drc
+commander.nky
+commander.bit
+commander.bin
+commander.isc
+commander.cmd_log
+# XST (Creating Lso File) : 
+commander.lso
+# xst flow : RunXST
+commander.syr
+commander.prj
+commander.sprj
+commander.ana
+commander.stx
+commander.cmd_log
+vgadriver.ngc
+commander.ngc
+vgadriver.ngr
+commander.ngr
+# XST (Creating Lso File) : 
+commander.lso
+# xst flow : RunXST
+commander.syr
+commander.prj
+commander.sprj
+commander.ana
+commander.stx
+commander.cmd_log
+vgadriver.ngc
+commander.ngc
+vgadriver.ngr
+commander.ngr
+# Implmentation : Translate
+__projnav/ngdbuild.err
+__projnav/ednTOngd_tcl.rsp
+d:\xilinx\bin\termproject/_ngo
+commander.ngd
+commander_ngdbuild.nav
+commander.bld
+commander.ucf.untf
+commander.cmd_log
+# Implementation : Map
+commander_map.ncd
+commander.ngm
+commander.pcf
+commander.nc1
+commander.mrp
+commander_map.mrp
+commander.mdf
+__projnav/map.log
+commander.cmd_log
+MAP_NO_GUIDE_FILE_CPF "commander"
+# Implmentation : Post-Place & Route Timing
+__projnav/ncdTOtwr_tcl.rsp
+__projnav/posttrc.log
+commander.twr
+commander.twx
+commander.tsi
+commander.cmd_log
+# Implmentation : Place & Route
+__projnav/nc1TOncd_tcl.rsp
+commander.ncd
+commander.par
+commander.pad
+commander_pad.txt
+commander_pad.csv
+commander.pad_txt
+commander.dly
+reportgen.log
+commander.xpi
+commander.grf
+commander.itr
+commander_last_par.ncd
+__projnav/par.log
+commander.placed_ncd_tracker
+commander.routed_ncd_tracker
+commander.cmd_log
+PAR_NO_GUIDE_FILE_CPF "commander"
+# Generate Programming File
+__projnav/commander_ncdTOut_tcl.rsp
+__projnav/bitgen.rsp
+bitgen.ut
+commander.ut
+# Generate Programming File
+commander.bgn
+commander.rbt
+commander.ll
+commander.msk
+commander.drc
+commander.nky
+commander.bit
+commander.bin
+commander.isc
+commander.cmd_log
+# XST (Creating Lso File) : 
+commander.lso
+# xst flow : RunXST
+commander.syr
+commander.prj
+commander.sprj
+commander.ana
+commander.stx
+commander.cmd_log
+vgadriver.ngc
+commander.ngc
+vgadriver.ngr
+commander.ngr
+# Implmentation : Translate
+__projnav/ngdbuild.err
+__projnav/ednTOngd_tcl.rsp
+d:\xilinx\bin\termproject/_ngo
+commander.ngd
+commander_ngdbuild.nav
+commander.bld
+commander.ucf.untf
+commander.cmd_log
+# Implementation : Map
+commander_map.ncd
+commander.ngm
+commander.pcf
+commander.nc1
+commander.mrp
+commander_map.mrp
+commander.mdf
+__projnav/map.log
+commander.cmd_log
+MAP_NO_GUIDE_FILE_CPF "commander"
+# Implmentation : Post-Place & Route Timing
+__projnav/ncdTOtwr_tcl.rsp
+__projnav/posttrc.log
+commander.twr
+commander.twx
+commander.tsi
+commander.cmd_log
+# Implmentation : Place & Route
+__projnav/nc1TOncd_tcl.rsp
+commander.ncd
+commander.par
+commander.pad
+commander_pad.txt
+commander_pad.csv
+commander.pad_txt
+commander.dly
+reportgen.log
+commander.xpi
+commander.grf
+commander.itr
+commander_last_par.ncd
+__projnav/par.log
+commander.placed_ncd_tracker
+commander.routed_ncd_tracker
+commander.cmd_log
+PAR_NO_GUIDE_FILE_CPF "commander"
+# Generate Programming File
+__projnav/commander_ncdTOut_tcl.rsp
+__projnav/bitgen.rsp
+bitgen.ut
+commander.ut
+# Generate Programming File
+commander.bgn
+commander.rbt
+commander.ll
+commander.msk
+commander.drc
+commander.nky
+commander.bit
+commander.bin
+commander.isc
+commander.cmd_log
+# Configure Device (iMPACT)
+commander.prm
+commander.isc
+commander.svf
+xilinx.sys
+commander.mcs
+commander.exo
+commander.hex
+commander.tek
+commander.dst
+commander.dst_compressed
+commander.mpm
+_impact.cmd
+_impact.log
+# View RTL Schematic
+commander.ngr
+# XST (Creating Lso File) : 
+keyboarddriver.lso
+# xst flow : RunXST
+keyboarddriver.syr
+keyboarddriver.prj
+keyboarddriver.sprj
+keyboarddriver.ana
+keyboarddriver.stx
+keyboarddriver.cmd_log
+keyboarddriver.ngr
+# View RTL Schematic
+keyboarddriver.ngr
+# XST (Creating Lso File) : 
+segmentdriver.lso
+# xst flow : RunXST
+segmentdriver.syr
+segmentdriver.prj
+segmentdriver.sprj
+segmentdriver.ana
+segmentdriver.stx
+segmentdriver.cmd_log
+segmentdriver.ngr
+# View RTL Schematic
+segmentdriver.ngr
+# XST (Creating Lso File) : 
+vgadriver.lso
+# xst flow : RunXST
+vgadriver.syr
+vgadriver.prj
+vgadriver.sprj
+vgadriver.ana
+vgadriver.stx
+vgadriver.cmd_log
+vgadriver.ngc
+vgadriver.ngr
+# View RTL Schematic
+vgadriver.ngr
+# XST (Creating Lso File) : 
+wrdivider.lso
+# xst flow : RunXST
+wrdivider.syr
+wrdivider.prj
+wrdivider.sprj
+wrdivider.ana
+wrdivider.stx
+wrdivider.cmd_log
+wrdivider.ngr
+# View RTL Schematic
+wrdivider.ngr
+# View RTL Schematic
+segmentdriver.ngr
+# XST (Creating Lso File) : 
+commander.lso
+# xst flow : RunXST
+commander.syr
+commander.prj
+commander.sprj
+commander.ana
+commander.stx
+commander.cmd_log
+vgadriver.ngc
+commander.ngc
+segmentdriver.ngr
+keyboarddriver.ngr
+vgadriver.ngr
+wrdivider.ngr
+commander.ngr
+# xst flow : RunXST
+commander.syr
+commander.prj
+commander.sprj
+commander.ana
+commander.stx
+commander.cmd_log
+vgadriver.ngc
+commander.ngc
+segmentdriver.ngr
+keyboarddriver.ngr
+vgadriver.ngr
+wrdivider.ngr
+commander.ngr
+# View RTL Schematic
+commander.ngr
+# Implmentation : Translate
+__projnav/ngdbuild.err
+__projnav/ednTOngd_tcl.rsp
+d:\xilinx\bin\termproject/_ngo
+commander.ngd
+commander_ngdbuild.nav
+commander.bld
+commander.ucf.untf
+commander.cmd_log
+# Implementation : Map
+commander_map.ncd
+commander.ngm
+commander.pcf
+commander.nc1
+commander.mrp
+commander_map.mrp
+commander.mdf
+__projnav/map.log
+commander.cmd_log
+MAP_NO_GUIDE_FILE_CPF "commander"
+# Implmentation : Post-Place & Route Timing
+__projnav/ncdTOtwr_tcl.rsp
+__projnav/posttrc.log
+commander.twr
+commander.twx
+commander.tsi
+commander.cmd_log
+# Implmentation : Place & Route
+__projnav/nc1TOncd_tcl.rsp
+commander.ncd
+commander.par
+commander.pad
+commander_pad.txt
+commander_pad.csv
+commander.pad_txt
+commander.dly
+reportgen.log
+commander.xpi
+commander.grf
+commander.itr
+commander_last_par.ncd
+__projnav/par.log
+commander.placed_ncd_tracker
+commander.routed_ncd_tracker
+commander.cmd_log
+PAR_NO_GUIDE_FILE_CPF "commander"
+# Generate Programming File
+__projnav/commander_ncdTOut_tcl.rsp
+__projnav/bitgen.rsp
+bitgen.ut
+commander.ut
+# Generate Programming File
+commander.bgn
+commander.rbt
+commander.ll
+commander.msk
+commander.drc
+commander.nky
+commander.bit
+commander.bin
+commander.isc
+commander.cmd_log
+# xst flow : RunXST
+wrdivider.syr
+wrdivider.prj
+wrdivider.sprj
+wrdivider.ana
+wrdivider.stx
+wrdivider.cmd_log
+wrdivider.ngc
+wrdivider.ngr
+# Implmentation : Translate
+__projnav/ngdbuild.err
+__projnav/ednTOngd_tcl.rsp
+d:\xilinx\bin\termproject/_ngo
+wrdivider.ngd
+wrdivider_ngdbuild.nav
+wrdivider.bld
+.untf
+wrdivider.cmd_log
+# Implementation : Map
+wrdivider_map.ncd
+wrdivider.ngm
+wrdivider.pcf
+wrdivider.nc1
+wrdivider.mrp
+wrdivider_map.mrp
+wrdivider.mdf
+__projnav/map.log
+wrdivider.cmd_log
+MAP_NO_GUIDE_FILE_CPF "wrdivider"
+# Implmentation : Post-Place & Route Timing
+__projnav/ncdTOtwr_tcl.rsp
+__projnav/posttrc.log
+wrdivider.twr
+wrdivider.twx
+wrdivider.tsi
+wrdivider.cmd_log
+# Implmentation : Place & Route
+__projnav/nc1TOncd_tcl.rsp
+wrdivider.ncd
+wrdivider.par
+wrdivider.pad
+wrdivider_pad.txt
+wrdivider_pad.csv
+wrdivider.pad_txt
+wrdivider.dly
+reportgen.log
+wrdivider.xpi
+wrdivider.grf
+wrdivider.itr
+wrdivider_last_par.ncd
+__projnav/par.log
+wrdivider.placed_ncd_tracker
+wrdivider.routed_ncd_tracker
+wrdivider.cmd_log
+PAR_NO_GUIDE_FILE_CPF "wrdivider"
+# Generate Programming File
+__projnav/wrdivider_ncdTOut_tcl.rsp
+__projnav/bitgen.rsp
+bitgen.ut
+wrdivider.ut
+# Generate Programming File
+wrdivider.bgn
+wrdivider.rbt
+wrdivider.ll
+wrdivider.msk
+wrdivider.drc
+wrdivider.nky
+wrdivider.bit
+wrdivider.bin
+wrdivider.isc
+wrdivider.cmd_log
+# Configure Device (iMPACT)
+commander.prm
+commander.isc
+commander.svf
+xilinx.sys
+commander.mcs
+commander.exo
+commander.hex
+commander.tek
+commander.dst
+commander.dst_compressed
+commander.mpm
+_impact.cmd
+_impact.log
+# Configure Device (iMPACT)
+wrdivider.prm
+wrdivider.isc
+wrdivider.svf
+xilinx.sys
+wrdivider.mcs
+wrdivider.exo
+wrdivider.hex
+wrdivider.tek
+wrdivider.dst
+wrdivider.dst_compressed
+wrdivider.mpm
+_impact.cmd
+_impact.log
+# XST (Creating Lso File) : 
+commander.lso
+# xst flow : RunXST
+commander.syr
+commander.prj
+commander.sprj
+commander.ana
+commander.stx
+commander.cmd_log
+vgadriver.ngc
+wrdivider.ngc
+commander.ngc
+segmentdriver.ngr
+keyboarddriver.ngr
+vgadriver.ngr
+wrdivider.ngr
+commander.ngr
+# Implmentation : Translate
+__projnav/ngdbuild.err
+__projnav/ednTOngd_tcl.rsp
+d:\xilinx\bin\termproject/_ngo
+commander.ngd
+commander_ngdbuild.nav
+commander.bld
+commander.ucf.untf
+commander.cmd_log
+# Implementation : Map
+commander_map.ncd
+commander.ngm
+commander.pcf
+commander.nc1
+commander.mrp
+commander_map.mrp
+commander.mdf
+__projnav/map.log
+commander.cmd_log
+MAP_NO_GUIDE_FILE_CPF "commander"
+# Implmentation : Post-Place & Route Timing
+__projnav/ncdTOtwr_tcl.rsp
+__projnav/posttrc.log
+commander.twr
+commander.twx
+commander.tsi
+commander.cmd_log
+# Implmentation : Place & Route
+__projnav/nc1TOncd_tcl.rsp
+commander.ncd
+commander.par
+commander.pad
+commander_pad.txt
+commander_pad.csv
+commander.pad_txt
+commander.dly
+reportgen.log
+commander.xpi
+commander.grf
+commander.itr
+commander_last_par.ncd
+__projnav/par.log
+commander.placed_ncd_tracker
+commander.routed_ncd_tracker
+commander.cmd_log
+PAR_NO_GUIDE_FILE_CPF "commander"
+# Generate Programming File
+__projnav/commander_ncdTOut_tcl.rsp
+__projnav/bitgen.rsp
+bitgen.ut
+commander.ut
+# Generate Programming File
+commander.bgn
+commander.rbt
+commander.ll
+commander.msk
+commander.drc
+commander.nky
+commander.bit
+commander.bin
+commander.isc
+commander.cmd_log
+# Configure Device (iMPACT)
+commander.prm
+commander.isc
+commander.svf
+xilinx.sys
+commander.mcs
+commander.exo
+commander.hex
+commander.tek
+commander.dst
+commander.dst_compressed
+commander.mpm
+_impact.cmd
+_impact.log
+# Configure Device (iMPACT)
+commander.prm
+commander.isc
+commander.svf
+xilinx.sys
+commander.mcs
+commander.exo
+commander.hex
+commander.tek
+commander.dst
+commander.dst_compressed
+commander.mpm
+_impact.cmd
+_impact.log
+# XST (Creating Lso File) : 
+commander.lso
+# xst flow : RunXST
+commander.syr
+commander.prj
+commander.sprj
+commander.ana
+commander.stx
+commander.cmd_log
+vgadriver.ngc
+wrdivider.ngc
+commander.ngc
+segmentdriver.ngr
+keyboarddriver.ngr
+vgadriver.ngr
+wrdivider.ngr
+commander.ngr
+# Implmentation : Translate
+__projnav/ngdbuild.err
+__projnav/ednTOngd_tcl.rsp
+d:\xilinx\bin\termproject/_ngo
+commander.ngd
+commander_ngdbuild.nav
+commander.bld
+commander.ucf.untf
+commander.cmd_log
+# Implementation : Map
+commander_map.ncd
+commander.ngm
+commander.pcf
+commander.nc1
+commander.mrp
+commander_map.mrp
+commander.mdf
+__projnav/map.log
+commander.cmd_log
+MAP_NO_GUIDE_FILE_CPF "commander"
+# Implmentation : Post-Place & Route Timing
+__projnav/ncdTOtwr_tcl.rsp
+__projnav/posttrc.log
+commander.twr
+commander.twx
+commander.tsi
+commander.cmd_log
+# Implmentation : Place & Route
+__projnav/nc1TOncd_tcl.rsp
+commander.ncd
+commander.par
+commander.pad
+commander_pad.txt
+commander_pad.csv
+commander.pad_txt
+commander.dly
+reportgen.log
+commander.xpi
+commander.grf
+commander.itr
+commander_last_par.ncd
+__projnav/par.log
+commander.placed_ncd_tracker
+commander.routed_ncd_tracker
+commander.cmd_log
+PAR_NO_GUIDE_FILE_CPF "commander"
+# Generate Programming File
+__projnav/commander_ncdTOut_tcl.rsp
+__projnav/bitgen.rsp
+bitgen.ut
+commander.ut
+# Generate Programming File
+commander.bgn
+commander.rbt
+commander.ll
+commander.msk
+commander.drc
+commander.nky
+commander.bit
+commander.bin
+commander.isc
+commander.cmd_log
+# XST (Creating Lso File) : 
+commander.lso
+# xst flow : RunXST
+commander.syr
+commander.prj
+commander.sprj
+commander.ana
+commander.stx
+commander.cmd_log
+vgadriver.ngc
+wrdivider.ngc
+commander.ngc
+segmentdriver.ngr
+keyboarddriver.ngr
+vgadriver.ngr
+wrdivider.ngr
+commander.ngr
+# Implmentation : Translate
+__projnav/ngdbuild.err
+__projnav/ednTOngd_tcl.rsp
+d:\xilinx\bin\termproject/_ngo
+commander.ngd
+commander_ngdbuild.nav
+commander.bld
+commander.ucf.untf
+commander.cmd_log
+# Implementation : Map
+commander_map.ncd
+commander.ngm
+commander.pcf
+commander.nc1
+commander.mrp
+commander_map.mrp
+commander.mdf
+__projnav/map.log
+commander.cmd_log
+MAP_NO_GUIDE_FILE_CPF "commander"
+# Implmentation : Post-Place & Route Timing
+__projnav/ncdTOtwr_tcl.rsp
+__projnav/posttrc.log
+commander.twr
+commander.twx
+commander.tsi
+commander.cmd_log
+# Implmentation : Place & Route
+__projnav/nc1TOncd_tcl.rsp
+commander.ncd
+commander.par
+commander.pad
+commander_pad.txt
+commander_pad.csv
+commander.pad_txt
+commander.dly
+reportgen.log
+commander.xpi
+commander.grf
+commander.itr
+commander_last_par.ncd
+__projnav/par.log
+commander.placed_ncd_tracker
+commander.routed_ncd_tracker
+commander.cmd_log
+PAR_NO_GUIDE_FILE_CPF "commander"
+# Generate Programming File
+__projnav/commander_ncdTOut_tcl.rsp
+__projnav/bitgen.rsp
+bitgen.ut
+commander.ut
+# Generate Programming File
+commander.bgn
+commander.rbt
+commander.ll
+commander.msk
+commander.drc
+commander.nky
+commander.bit
+commander.bin
+commander.isc
+commander.cmd_log
+# XST (Creating Lso File) : 
+commander.lso
+# xst flow : RunXST
+commander.syr
+commander.prj
+commander.sprj
+commander.ana
+commander.stx
+commander.cmd_log
+vgadriver.ngc
+wrdivider.ngc
+commander.ngc
+segmentdriver.ngr
+keyboarddriver.ngr
+vgadriver.ngr
+wrdivider.ngr
+commander.ngr
+# XST (Creating Lso File) : 
+commander.lso
+# xst flow : RunXST
+commander.syr
+commander.prj
+commander.sprj
+commander.ana
+commander.stx
+commander.cmd_log
+vgadriver.ngc
+wrdivider.ngc
+commander.ngc
+segmentdriver.ngr
+keyboarddriver.ngr
+vgadriver.ngr
+wrdivider.ngr
+commander.ngr
+# Implmentation : Translate
+__projnav/ngdbuild.err
+__projnav/ednTOngd_tcl.rsp
+d:\xilinx\bin\termproject/_ngo
+commander.ngd
+commander_ngdbuild.nav
+commander.bld
+commander.ucf.untf
+commander.cmd_log
+# Implementation : Map
+commander_map.ncd
+commander.ngm
+commander.pcf
+commander.nc1
+commander.mrp
+commander_map.mrp
+commander.mdf
+__projnav/map.log
+commander.cmd_log
+MAP_NO_GUIDE_FILE_CPF "commander"
+# Implmentation : Post-Place & Route Timing
+__projnav/ncdTOtwr_tcl.rsp
+__projnav/posttrc.log
+commander.twr
+commander.twx
+commander.tsi
+commander.cmd_log
+# Implmentation : Place & Route
+__projnav/nc1TOncd_tcl.rsp
+commander.ncd
+commander.par
+commander.pad
+commander_pad.txt
+commander_pad.csv
+commander.pad_txt
+commander.dly
+reportgen.log
+commander.xpi
+commander.grf
+commander.itr
+commander_last_par.ncd
+__projnav/par.log
+commander.placed_ncd_tracker
+commander.routed_ncd_tracker
+commander.cmd_log
+PAR_NO_GUIDE_FILE_CPF "commander"
+# Generate Programming File
+__projnav/commander_ncdTOut_tcl.rsp
+__projnav/bitgen.rsp
+bitgen.ut
+commander.ut
+# Generate Programming File
+commander.bgn
+commander.rbt
+commander.ll
+commander.msk
+commander.drc
+commander.nky
+commander.bit
+commander.bin
+commander.isc
+commander.cmd_log
+# XST (Creating Lso File) : 
+commander.lso
+# xst flow : RunXST
+commander.syr
+commander.prj
+commander.sprj
+commander.ana
+commander.stx
+commander.cmd_log
+vgadriver.ngc
+wrdivider.ngc
+commander.ngc
+segmentdriver.ngr
+keyboarddriver.ngr
+vgadriver.ngr
+wrdivider.ngr
+commander.ngr
+# Implmentation : Translate
+__projnav/ngdbuild.err
+__projnav/ednTOngd_tcl.rsp
+d:\xilinx\bin\termproject/_ngo
+commander.ngd
+commander_ngdbuild.nav
+commander.bld
+commander.ucf.untf
+commander.cmd_log
+# Implementation : Map
+commander_map.ncd
+commander.ngm
+commander.pcf
+commander.nc1
+commander.mrp
+commander_map.mrp
+commander.mdf
+__projnav/map.log
+commander.cmd_log
+MAP_NO_GUIDE_FILE_CPF "commander"
+# Implmentation : Post-Place & Route Timing
+__projnav/ncdTOtwr_tcl.rsp
+__projnav/posttrc.log
+commander.twr
+commander.twx
+commander.tsi
+commander.cmd_log
+# Implmentation : Place & Route
+__projnav/nc1TOncd_tcl.rsp
+commander.ncd
+commander.par
+commander.pad
+commander_pad.txt
+commander_pad.csv
+commander.pad_txt
+commander.dly
+reportgen.log
+commander.xpi
+commander.grf
+commander.itr
+commander_last_par.ncd
+__projnav/par.log
+commander.placed_ncd_tracker
+commander.routed_ncd_tracker
+commander.cmd_log
+PAR_NO_GUIDE_FILE_CPF "commander"
+# Generate Programming File
+__projnav/commander_ncdTOut_tcl.rsp
+__projnav/bitgen.rsp
+bitgen.ut
+commander.ut
+# Generate Programming File
+commander.bgn
+commander.rbt
+commander.ll
+commander.msk
+commander.drc
+commander.nky
+commander.bit
+commander.bin
+commander.isc
+commander.cmd_log
+# XST (Creating Lso File) : 
+commander.lso
+# xst flow : RunXST
+commander.syr
+commander.prj
+commander.sprj
+commander.ana
+commander.stx
+commander.cmd_log
+vgadriver.ngc
+wrdivider.ngc
+commander.ngc
+segmentdriver.ngr
+keyboarddriver.ngr
+vgadriver.ngr
+wrdivider.ngr
+commander.ngr
+# Implmentation : Translate
+__projnav/ngdbuild.err
+__projnav/ednTOngd_tcl.rsp
+d:\xilinx\bin\termproject/_ngo
+commander.ngd
+commander_ngdbuild.nav
+commander.bld
+commander.ucf.untf
+commander.cmd_log
+# Implementation : Map
+commander_map.ncd
+commander.ngm
+commander.pcf
+commander.nc1
+commander.mrp
+commander_map.mrp
+commander.mdf
+__projnav/map.log
+commander.cmd_log
+MAP_NO_GUIDE_FILE_CPF "commander"
+# Implmentation : Post-Place & Route Timing
+__projnav/ncdTOtwr_tcl.rsp
+__projnav/posttrc.log
+commander.twr
+commander.twx
+commander.tsi
+commander.cmd_log
+# Implmentation : Place & Route
+__projnav/nc1TOncd_tcl.rsp
+commander.ncd
+commander.par
+commander.pad
+commander_pad.txt
+commander_pad.csv
+commander.pad_txt
+commander.dly
+reportgen.log
+commander.xpi
+commander.grf
+commander.itr
+commander_last_par.ncd
+__projnav/par.log
+commander.placed_ncd_tracker
+commander.routed_ncd_tracker
+commander.cmd_log
+PAR_NO_GUIDE_FILE_CPF "commander"
+# Generate Programming File
+__projnav/commander_ncdTOut_tcl.rsp
+__projnav/bitgen.rsp
+bitgen.ut
+commander.ut
+# Generate Programming File
+commander.bgn
+commander.rbt
+commander.ll
+commander.msk
+commander.drc
+commander.nky
+commander.bit
+commander.bin
+commander.isc
+commander.cmd_log
+# XST (Creating Lso File) : 
+commander.lso
+# xst flow : RunXST
+commander.syr
+commander.prj
+commander.sprj
+commander.ana
+commander.stx
+commander.cmd_log
+vgadriver.ngc
+wrdivider.ngc
+commander.ngc
+segmentdriver.ngr
+keyboarddriver.ngr
+vgadriver.ngr
+wrdivider.ngr
+commander.ngr
+# Implmentation : Translate
+__projnav/ngdbuild.err
+__projnav/ednTOngd_tcl.rsp
+d:\xilinx\bin\termproject/_ngo
+commander.ngd
+commander_ngdbuild.nav
+commander.bld
+commander.ucf.untf
+commander.cmd_log
+# Implementation : Map
+commander_map.ncd
+commander.ngm
+commander.pcf
+commander.nc1
+commander.mrp
+commander_map.mrp
+commander.mdf
+__projnav/map.log
+commander.cmd_log
+MAP_NO_GUIDE_FILE_CPF "commander"
+# Implmentation : Post-Place & Route Timing
+__projnav/ncdTOtwr_tcl.rsp
+__projnav/posttrc.log
+commander.twr
+commander.twx
+commander.tsi
+commander.cmd_log
+# Implmentation : Place & Route
+__projnav/nc1TOncd_tcl.rsp
+commander.ncd
+commander.par
+commander.pad
+commander_pad.txt
+commander_pad.csv
+commander.pad_txt
+commander.dly
+reportgen.log
+commander.xpi
+commander.grf
+commander.itr
+commander_last_par.ncd
+__projnav/par.log
+commander.placed_ncd_tracker
+commander.routed_ncd_tracker
+commander.cmd_log
+PAR_NO_GUIDE_FILE_CPF "commander"
+# Generate Programming File
+__projnav/commander_ncdTOut_tcl.rsp
+__projnav/bitgen.rsp
+bitgen.ut
+commander.ut
+# Generate Programming File
+commander.bgn
+commander.rbt
+commander.ll
+commander.msk
+commander.drc
+commander.nky
+commander.bit
+commander.bin
+commander.isc
+commander.cmd_log
+# XST (Creating Lso File) : 
+commander.lso
+# xst flow : RunXST
+commander.syr
+commander.prj
+commander.sprj
+commander.ana
+commander.stx
+commander.cmd_log
+vgadriver.ngc
+wrdivider.ngc
+commander.ngc
+segmentdriver.ngr
+keyboarddriver.ngr
+vgadriver.ngr
+wrdivider.ngr
+commander.ngr
+# XST (Creating Lso File) : 
+commander.lso
+# xst flow : RunXST
+commander.syr
+commander.prj
+commander.sprj
+commander.ana
+commander.stx
+commander.cmd_log
+vgadriver.ngc
+wrdivider.ngc
+commander.ngc
+segmentdriver.ngr
+keyboarddriver.ngr
+vgadriver.ngr
+wrdivider.ngr
+commander.ngr
+# Implmentation : Translate
+__projnav/ngdbuild.err
+__projnav/ednTOngd_tcl.rsp
+d:\xilinx\bin\termproject/_ngo
+commander.ngd
+commander_ngdbuild.nav
+commander.bld
+commander.ucf.untf
+commander.cmd_log
+# Implementation : Map
+commander_map.ncd
+commander.ngm
+commander.pcf
+commander.nc1
+commander.mrp
+commander_map.mrp
+commander.mdf
+__projnav/map.log
+commander.cmd_log
+MAP_NO_GUIDE_FILE_CPF "commander"
+# Implmentation : Post-Place & Route Timing
+__projnav/ncdTOtwr_tcl.rsp
+__projnav/posttrc.log
+commander.twr
+commander.twx
+commander.tsi
+commander.cmd_log
+# Implmentation : Place & Route
+__projnav/nc1TOncd_tcl.rsp
+commander.ncd
+commander.par
+commander.pad
+commander_pad.txt
+commander_pad.csv
+commander.pad_txt
+commander.dly
+reportgen.log
+commander.xpi
+commander.grf
+commander.itr
+commander_last_par.ncd
+__projnav/par.log
+commander.placed_ncd_tracker
+commander.routed_ncd_tracker
+commander.cmd_log
+PAR_NO_GUIDE_FILE_CPF "commander"
+# Generate Programming File
+__projnav/commander_ncdTOut_tcl.rsp
+__projnav/bitgen.rsp
+bitgen.ut
+commander.ut
+# Generate Programming File
+commander.bgn
+commander.rbt
+commander.ll
+commander.msk
+commander.drc
+commander.nky
+commander.bit
+commander.bin
+commander.isc
+commander.cmd_log
+# XST (Creating Lso File) : 
+segmentdriver.lso
+# xst flow : RunXST
+segmentdriver.syr
+segmentdriver.prj
+segmentdriver.sprj
+segmentdriver.ana
+segmentdriver.stx
+segmentdriver.cmd_log
+segmentdriver.ngr
+# XST (Creating Lso File) : 
+commander.lso
+# xst flow : RunXST
+commander.syr
+commander.prj
+commander.sprj
+commander.ana
+commander.stx
+commander.cmd_log
+vgadriver.ngc
+wrdivider.ngc
+commander.ngc
+segmentdriver.ngr
+keyboarddriver.ngr
+vgadriver.ngr
+wrdivider.ngr
+commander.ngr
+# Implmentation : Translate
+__projnav/ngdbuild.err
+__projnav/ednTOngd_tcl.rsp
+d:\xilinx\bin\termproject/_ngo
+commander.ngd
+commander_ngdbuild.nav
+commander.bld
+commander.ucf.untf
+commander.cmd_log
+# Implementation : Map
+commander_map.ncd
+commander.ngm
+commander.pcf
+commander.nc1
+commander.mrp
+commander_map.mrp
+commander.mdf
+__projnav/map.log
+commander.cmd_log
+MAP_NO_GUIDE_FILE_CPF "commander"
+# Implmentation : Post-Place & Route Timing
+__projnav/ncdTOtwr_tcl.rsp
+__projnav/posttrc.log
+commander.twr
+commander.twx
+commander.tsi
+commander.cmd_log
+# Implmentation : Place & Route
+__projnav/nc1TOncd_tcl.rsp
+commander.ncd
+commander.par
+commander.pad
+commander_pad.txt
+commander_pad.csv
+commander.pad_txt
+commander.dly
+reportgen.log
+commander.xpi
+commander.grf
+commander.itr
+commander_last_par.ncd
+__projnav/par.log
+commander.placed_ncd_tracker
+commander.routed_ncd_tracker
+commander.cmd_log
+PAR_NO_GUIDE_FILE_CPF "commander"
+# Generate Programming File
+__projnav/commander_ncdTOut_tcl.rsp
+__projnav/bitgen.rsp
+bitgen.ut
+commander.ut
+# Generate Programming File
+commander.bgn
+commander.rbt
+commander.ll
+commander.msk
+commander.drc
+commander.nky
+commander.bit
+commander.bin
+commander.isc
+commander.cmd_log
+# Configure Device (iMPACT)
+commander.prm
+commander.isc
+commander.svf
+xilinx.sys
+commander.mcs
+commander.exo
+commander.hex
+commander.tek
+commander.dst
+commander.dst_compressed
+commander.mpm
+_impact.cmd
+_impact.log
+# XST (Creating Lso File) : 
+commander.lso
+# xst flow : RunXST
+commander.syr
+commander.prj
+commander.sprj
+commander.ana
+commander.stx
+commander.cmd_log
+vgadriver.ngc
+wrdivider.ngc
+commander.ngc
+segmentdriver.ngr
+keyboarddriver.ngr
+vgadriver.ngr
+wrdivider.ngr
+commander.ngr
+# Implmentation : Translate
+__projnav/ngdbuild.err
+__projnav/ednTOngd_tcl.rsp
+d:\termproject/_ngo
+commander.ngd
+commander_ngdbuild.nav
+commander.bld
+commander.ucf.untf
+commander.cmd_log

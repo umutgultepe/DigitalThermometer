@@ -1,0 +1,7 @@
+xst -intstyle ise -ifn __projnav/vgadriver.xst -ofn vgadriver.syr
+ngdbuild -intstyle ise -dd d:\xilinx\bin\termproject/_ngo -i  -p xc2s50-pq208-6 vgadriver.ngc vgadriver.ngd
+map -intstyle ise -p xc2s50-pq208-6 -cm area -pr b -k 4 -c 100 -tx off -o vgadriver_map.ncd vgadriver.ngd vgadriver.pcf
+par -w -intstyle ise -ol std -t 1 vgadriver_map.ncd vgadriver.ncd vgadriver.pcf
+trce -intstyle ise -e 3 -l 3 -xml vgadriver vgadriver.ncd -o vgadriver.twr vgadriver.pcf
+bitgen -intstyle ise -f vgadriver.ut vgadriver.ncd
+xst -intstyle ise -ifn __projnav/vgadriver.xst -ofn vgadriver.syr

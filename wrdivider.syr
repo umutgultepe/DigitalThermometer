@@ -1,0 +1,274 @@
+Release 6.3.03i - xst G.38
+Copyright (c) 1995-2004 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to __projnav
+CPU : 0.00 / 0.78 s | Elapsed : 0.00 / 0.00 s
+ 
+--> Parameter xsthdpdir set to ./xst
+CPU : 0.00 / 0.78 s | Elapsed : 0.00 / 0.00 s
+ 
+--> Reading design: wrdivider.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) HDL Analysis
+  4) HDL Synthesis
+  5) Advanced HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Final Report
+     7.1) Device utilization summary
+     7.2) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : wrdivider.prj
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+Verilog Include Directory          : 
+
+---- Target Parameters
+Output File Name                   : wrdivider
+Output Format                      : NGC
+Target Device                      : xc2s50-6-pq208
+
+---- Source Options
+Top Module Name                    : wrdivider
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+FSM Style                          : lut
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+ROM Style                          : Auto
+Mux Extraction                     : YES
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : YES
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+Resource Sharing                   : YES
+Multiplier Style                   : lut
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100
+Add Generic Clock Buffer(BUFG)     : 4
+Register Duplication               : YES
+Equivalent register Removal        : YES
+Slice Packing                      : YES
+Pack IO Registers into IOBs        : auto
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : NO
+Global Optimization                : AllClockNets
+RTL Output                         : Yes
+Write Timing Constraints           : NO
+Hierarchy Separator                : _
+Bus Delimiter                      : <>
+Case Specifier                     : maintain
+Slice Utilization Ratio            : 100
+Slice Utilization Ratio Delta      : 5
+
+---- Other Options
+lso                                : wrdivider.lso
+Read Cores                         : YES
+cross_clock_analysis               : NO
+verilog2001                        : YES
+Optimize Instantiated Primitives   : NO
+tristate2logic                     : No
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file D:/Xilinx/bin/termproject/wrdivider.vhd in Library work.
+Architecture behavioral of Entity wrdivider is up to date.
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <wrdivider> (Architecture <behavioral>).
+Entity <wrdivider> analyzed. Unit <wrdivider> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <wrdivider>.
+    Related source file is D:/Xilinx/bin/termproject/wrdivider.vhd.
+    Found 32-bit up counter for signal <count>.
+    Found 1-bit register for signal <int_clock>.
+    Summary:
+	inferred   1 Counter(s).
+	inferred   1 D-type flip-flop(s).
+Unit <wrdivider> synthesized.
+
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Advanced RAM inference ...
+Advanced multiplier inference ...
+Advanced Registered AddSub inference ...
+Dynamic shift register inference ...
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Counters                         : 1
+ 32-bit up counter                 : 1
+# Registers                        : 1
+ 1-bit register                    : 1
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <wrdivider> ...
+Loading device for application Xst from file 'v50.nph' in environment D:/Xilinx.
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block wrdivider, actual ratio is 3.
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : wrdivider.ngr
+Top Level Output File Name         : wrdivider
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : NO
+
+Design Statistics
+# IOs                              : 2
+
+Macro Statistics :
+# Registers                        : 2
+#      1-bit register              : 1
+#      32-bit register             : 1
+# Adders/Subtractors               : 1
+#      32-bit adder                : 1
+
+Cell Usage :
+# BELS                             : 109
+#      GND                         : 1
+#      LUT1                        : 33
+#      LUT2                        : 1
+#      LUT4                        : 8
+#      LUT4_D                      : 2
+#      LUT4_L                      : 1
+#      MUXCY                       : 31
+#      VCC                         : 1
+#      XORCY                       : 31
+# FlipFlops/Latches                : 33
+#      FDE                         : 1
+#      FDR                         : 32
+# Clock Buffers                    : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 1
+#      OBUF                        : 1
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 2s50pq208-6 
+
+ Number of Slices:                      39  out of    768     5%  
+ Number of Slice Flip Flops:            33  out of   1536     2%  
+ Number of 4 input LUTs:                45  out of   1536     2%  
+ Number of bonded IOBs:                  1  out of    144     0%  
+ Number of GCLKs:                        1  out of      4    25%  
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+clkin                              | BUFGP                  | 33    |
+-----------------------------------+------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -6
+
+   Minimum period: 9.675ns (Maximum Frequency: 103.359MHz)
+   Minimum input arrival time before clock: No path found
+   Maximum output required time after clock: 6.959ns
+   Maximum combinational path delay: No path found
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+-------------------------------------------------------------------------
+Timing constraint: Default period analysis for Clock 'clkin'
+Delay:               9.675ns (Levels of Logic = 3)
+  Source:            count_24 (FF)
+  Destination:       int_clock (FF)
+  Source Clock:      clkin rising
+  Destination Clock: clkin rising
+
+  Data Path: count_24 to int_clock
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDR:C->Q              2   1.085   1.206  count_24 (count_24)
+     LUT4:I0->O            1   0.549   1.035  _n000137 (CHOICE117)
+     LUT2:I0->O            2   0.549   1.206  _n000151 (CHOICE125)
+     LUT4:I2->O           17   0.549   2.610  _n0001154 (_n0001)
+     FDE:CE                    0.886          int_clock
+    ----------------------------------------
+    Total                      9.675ns (3.618ns logic, 6.057ns route)
+                                       (37.4% logic, 62.6% route)
+
+-------------------------------------------------------------------------
+Timing constraint: Default OFFSET OUT AFTER for Clock 'clkin'
+Offset:              6.959ns (Levels of Logic = 1)
+  Source:            int_clock (FF)
+  Destination:       clkout (PAD)
+  Source Clock:      clkin rising
+
+  Data Path: int_clock to clkout
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDE:C->Q              2   1.085   1.206  int_clock (int_clock)
+     OBUF:I->O                 4.668          clkout_OBUF (clkout)
+    ----------------------------------------
+    Total                      6.959ns (5.753ns logic, 1.206ns route)
+                                       (82.7% logic, 17.3% route)
+
+=========================================================================
+CPU : 3.70 / 5.44 s | Elapsed : 4.00 / 5.00 s
+ 
+--> 
+
+Total memory usage is 53956 kilobytes
+
+

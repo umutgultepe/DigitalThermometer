@@ -1,0 +1,936 @@
+Release 6.3.03i - xst G.38
+Copyright (c) 1995-2004 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to __projnav
+CPU : 0.00 / 1.08 s | Elapsed : 0.00 / 1.00 s
+ 
+--> Parameter xsthdpdir set to ./xst
+CPU : 0.00 / 1.08 s | Elapsed : 0.00 / 1.00 s
+ 
+--> Reading design: commander.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) HDL Analysis
+  4) HDL Synthesis
+  5) Advanced HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Final Report
+     7.1) Device utilization summary
+     7.2) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : commander.prj
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+Verilog Include Directory          : 
+
+---- Target Parameters
+Output File Name                   : commander
+Output Format                      : NGC
+Target Device                      : xc2s50-6-pq208
+
+---- Source Options
+Top Module Name                    : commander
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+FSM Style                          : lut
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+ROM Style                          : Auto
+Mux Extraction                     : YES
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : YES
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+Resource Sharing                   : YES
+Multiplier Style                   : lut
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100
+Add Generic Clock Buffer(BUFG)     : 4
+Register Duplication               : YES
+Equivalent register Removal        : YES
+Slice Packing                      : YES
+Pack IO Registers into IOBs        : auto
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : NO
+Global Optimization                : AllClockNets
+RTL Output                         : Yes
+Write Timing Constraints           : NO
+Hierarchy Separator                : _
+Bus Delimiter                      : <>
+Case Specifier                     : maintain
+Slice Utilization Ratio            : 100
+Slice Utilization Ratio Delta      : 5
+
+---- Other Options
+lso                                : commander.lso
+Read Cores                         : YES
+cross_clock_analysis               : NO
+verilog2001                        : YES
+Optimize Instantiated Primitives   : NO
+tristate2logic                     : No
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+WARNING:HDLParsers:3215 - Unit work/COMMANDER is now defined in a different file: was C:/Xilinx/bin/termproject/Commander.vhd, now is D:/termproject/Commander.vhd
+WARNING:HDLParsers:3215 - Unit work/COMMANDER/BEHAVIORAL is now defined in a different file: was C:/Xilinx/bin/termproject/Commander.vhd, now is D:/termproject/Commander.vhd
+WARNING:HDLParsers:3215 - Unit work/WRDIVIDER is now defined in a different file: was C:/Xilinx/bin/termproject/wrdivider.vhd, now is D:/termproject/wrdivider.vhd
+WARNING:HDLParsers:3215 - Unit work/WRDIVIDER/BEHAVIORAL is now defined in a different file: was C:/Xilinx/bin/termproject/wrdivider.vhd, now is D:/termproject/wrdivider.vhd
+WARNING:HDLParsers:3215 - Unit work/VGADRIVER is now defined in a different file: was C:/Xilinx/bin/termproject/vgadriver.vhd, now is D:/termproject/vgadriver.vhd
+WARNING:HDLParsers:3215 - Unit work/VGADRIVER/BEHAVIORAL is now defined in a different file: was C:/Xilinx/bin/termproject/vgadriver.vhd, now is D:/termproject/vgadriver.vhd
+WARNING:HDLParsers:3215 - Unit work/KEYBOARDDRIVER is now defined in a different file: was C:/Xilinx/bin/termproject/keyboardriver.vhd, now is D:/termproject/keyboardriver.vhd
+WARNING:HDLParsers:3215 - Unit work/KEYBOARDDRIVER/BEHAVIORAL is now defined in a different file: was C:/Xilinx/bin/termproject/keyboardriver.vhd, now is D:/termproject/keyboardriver.vhd
+WARNING:HDLParsers:3215 - Unit work/SEGMENTDRIVER is now defined in a different file: was C:/Xilinx/bin/termproject/segmentdriver.vhd, now is D:/termproject/segmentdriver.vhd
+WARNING:HDLParsers:3215 - Unit work/SEGMENTDRIVER/ARCHDRIVER is now defined in a different file: was C:/Xilinx/bin/termproject/segmentdriver.vhd, now is D:/termproject/segmentdriver.vhd
+WARNING:HDLParsers:3215 - Unit work/SEGMENT is now defined in a different file: was C:/Xilinx/bin/termproject/segment.vhd, now is D:/termproject/segment.vhd
+WARNING:HDLParsers:3215 - Unit work/SEGMENT/BEHAVIORAL is now defined in a different file: was C:/Xilinx/bin/termproject/segment.vhd, now is D:/termproject/segment.vhd
+WARNING:HDLParsers:3215 - Unit work/DIVIDER is now defined in a different file: was C:/Xilinx/bin/termproject/divider.vhd, now is D:/termproject/divider.vhd
+WARNING:HDLParsers:3215 - Unit work/DIVIDER/BEHAVIORAL is now defined in a different file: was C:/Xilinx/bin/termproject/divider.vhd, now is D:/termproject/divider.vhd
+WARNING:HDLParsers:3215 - Unit work/DECODER is now defined in a different file: was C:/Xilinx/bin/termproject/decoder.vhd, now is D:/termproject/decoder.vhd
+WARNING:HDLParsers:3215 - Unit work/DECODER/BEHAVIORAL is now defined in a different file: was C:/Xilinx/bin/termproject/decoder.vhd, now is D:/termproject/decoder.vhd
+Compiling vhdl file D:/termproject/decoder.vhd in Library work.
+Architecture behavioral of Entity decoder is up to date.
+Compiling vhdl file D:/termproject/divider.vhd in Library work.
+Architecture behavioral of Entity divider is up to date.
+Compiling vhdl file D:/termproject/segment.vhd in Library work.
+Architecture behavioral of Entity segment is up to date.
+Compiling vhdl file D:/termproject/segmentdriver.vhd in Library work.
+Architecture archdriver of Entity segmentdriver is up to date.
+Compiling vhdl file D:/termproject/keyboardriver.vhd in Library work.
+Architecture behavioral of Entity keyboarddriver is up to date.
+Compiling vhdl file D:/termproject/vgadriver.vhd in Library work.
+Architecture behavioral of Entity vgadriver is up to date.
+Compiling vhdl file D:/termproject/wrdivider.vhd in Library work.
+Architecture behavioral of Entity wrdivider is up to date.
+Compiling vhdl file D:/termproject/Commander.vhd in Library work.
+Architecture behavioral of Entity commander is up to date.
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <commander> (Architecture <behavioral>).
+WARNING:Xst:819 - D:/termproject/Commander.vhd line 69: The following signals are missing in the process sensitivity list:
+   ton, mon.
+WARNING:Xst:819 - D:/termproject/Commander.vhd line 112: The following signals are missing in the process sensitivity list:
+   redtemp2, grntemp2, blutemp2, clktemp2, temprature.
+Entity <commander> analyzed. Unit <commander> generated.
+
+Analyzing Entity <segmentdriver> (Architecture <archdriver>).
+Entity <segmentdriver> analyzed. Unit <segmentdriver> generated.
+
+Analyzing Entity <decoder> (Architecture <behavioral>).
+Entity <decoder> analyzed. Unit <decoder> generated.
+
+Analyzing Entity <divider> (Architecture <behavioral>).
+Entity <divider> analyzed. Unit <divider> generated.
+
+Analyzing Entity <segment> (Architecture <behavioral>).
+Entity <segment> analyzed. Unit <segment> generated.
+
+Analyzing Entity <keyboarddriver> (Architecture <behavioral>).
+Entity <keyboarddriver> analyzed. Unit <keyboarddriver> generated.
+
+Analyzing Entity <vgadriver> (Architecture <behavioral>).
+Entity <vgadriver> analyzed. Unit <vgadriver> generated.
+
+Analyzing Entity <wrdivider> (Architecture <behavioral>).
+Entity <wrdivider> analyzed. Unit <wrdivider> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <segment>.
+    Related source file is D:/termproject/segment.vhd.
+WARNING:Xst:737 - Found 7-bit latch for signal <segments>.
+    Found 4-bit register for signal <selector>.
+    Found 32-bit comparator less for signal <$n0011> created at line 27.
+    Found 32-bit comparator less for signal <$n0017> created at line 29.
+    Found 32-bit comparator less for signal <$n0018> created at line 32.
+    Found 32-bit adder for signal <$n0030> created at line 23.
+    Found 32-bit comparator less for signal <$n0031> created at line 35.
+    Found 4-bit register for signal <choose>.
+    Found 32-bit register for signal <counter>.
+    Summary:
+	inferred  36 D-type flip-flop(s).
+	inferred   1 Adder/Subtracter(s).
+	inferred   4 Comparator(s).
+Unit <segment> synthesized.
+
+
+Synthesizing Unit <divider>.
+    Related source file is D:/termproject/divider.vhd.
+    Found 26-bit up counter for signal <count>.
+    Found 1-bit register for signal <int_clock>.
+    Summary:
+	inferred   1 Counter(s).
+	inferred   1 D-type flip-flop(s).
+Unit <divider> synthesized.
+
+
+Synthesizing Unit <decoder>.
+    Related source file is D:/termproject/decoder.vhd.
+    Found 2-bit adder for signal <$n0063> created at line 31.
+    Found 2-bit adder for signal <$n0065> created at line 39.
+    Found 29-bit subtractor for signal <$n0066> created at line 38.
+    Found 32-bit adder for signal <$n0067> created at line 31.
+    Found 32-bit adder for signal <$n0068> created at line 39.
+    Found 8-bit comparator greater for signal <$n0069> created at line 29.
+    Found 18-bit comparator greater for signal <$n0070> created at line 37.
+    Found 9-bit subtractor for signal <$n0071> created at line 30.
+    Found 9-bit comparator greater for signal <$n0073> created at line 29.
+    Found 10-bit subtractor for signal <$n0074> created at line 30.
+    Found 10-bit comparator greater for signal <$n0076> created at line 29.
+    Found 11-bit subtractor for signal <$n0077> created at line 30.
+    Found 11-bit comparator greater for signal <$n0081> created at line 29.
+    Found 12-bit subtractor for signal <$n0082> created at line 30.
+    Found 32-bit adder for signal <$n0084> created at line 31.
+    Found 33-bit adder for signal <$n0085> created at line 31.
+    Found 12-bit comparator greater for signal <$n0086> created at line 29.
+    Found 13-bit subtractor for signal <$n0087> created at line 30.
+    Found 32-bit adder for signal <$n0089> created at line 31.
+    Found 33-bit adder for signal <$n0090> created at line 31.
+    Found 13-bit comparator greater for signal <$n0091> created at line 29.
+    Found 14-bit subtractor for signal <$n0092> created at line 30.
+    Found 32-bit adder for signal <$n0094> created at line 31.
+    Found 33-bit adder for signal <$n0095> created at line 31.
+    Found 14-bit comparator greater for signal <$n0096> created at line 29.
+    Found 15-bit subtractor for signal <$n0097> created at line 30.
+    Found 32-bit adder for signal <$n0099> created at line 31.
+    Found 33-bit adder for signal <$n0100> created at line 31.
+    Found 15-bit comparator greater for signal <$n0101> created at line 29.
+    Found 16-bit subtractor for signal <$n0102> created at line 30.
+    Found 32-bit adder for signal <$n0104> created at line 31.
+    Found 33-bit adder for signal <$n0105> created at line 31.
+    Found 16-bit comparator greater for signal <$n0106> created at line 29.
+    Found 17-bit subtractor for signal <$n0107> created at line 30.
+    Found 17-bit comparator greater for signal <$n0109> created at line 29.
+    Found 18-bit subtractor for signal <$n0110> created at line 30.
+    Found 19-bit subtractor for signal <$n0112> created at line 38.
+    Found 19-bit comparator greater for signal <$n0114> created at line 37.
+    Found 20-bit subtractor for signal <$n0115> created at line 38.
+    Found 20-bit comparator greater for signal <$n0117> created at line 37.
+    Found 21-bit subtractor for signal <$n0118> created at line 38.
+    Found 21-bit comparator greater for signal <$n0122> created at line 37.
+    Found 22-bit subtractor for signal <$n0123> created at line 38.
+    Found 32-bit adder for signal <$n0125> created at line 39.
+    Found 33-bit adder for signal <$n0126> created at line 39.
+    Found 22-bit comparator greater for signal <$n0127> created at line 37.
+    Found 23-bit subtractor for signal <$n0128> created at line 38.
+    Found 32-bit adder for signal <$n0130> created at line 39.
+    Found 33-bit adder for signal <$n0131> created at line 39.
+    Found 23-bit comparator greater for signal <$n0132> created at line 37.
+    Found 24-bit subtractor for signal <$n0133> created at line 38.
+    Found 32-bit adder for signal <$n0135> created at line 39.
+    Found 33-bit adder for signal <$n0136> created at line 39.
+    Found 24-bit comparator greater for signal <$n0137> created at line 37.
+    Found 25-bit subtractor for signal <$n0138> created at line 38.
+    Found 32-bit adder for signal <$n0140> created at line 39.
+    Found 33-bit adder for signal <$n0141> created at line 39.
+    Found 25-bit comparator greater for signal <$n0142> created at line 37.
+    Found 26-bit subtractor for signal <$n0143> created at line 38.
+    Found 32-bit adder for signal <$n0145> created at line 39.
+    Found 33-bit adder for signal <$n0146> created at line 39.
+    Found 26-bit comparator greater for signal <$n0147> created at line 37.
+    Found 27-bit subtractor for signal <$n0148> created at line 38.
+    Found 32-bit adder for signal <$n0150> created at line 39.
+    Found 33-bit adder for signal <$n0151> created at line 39.
+    Found 27-bit comparator greater for signal <$n0152> created at line 37.
+    Found 28-bit subtractor for signal <$n0153> created at line 38.
+    Found 28-bit comparator greater for signal <$n0155> created at line 37.
+    Found 32-bit adder for signal <$n0164> created at line 31.
+    Found 32-bit adder for signal <$n0173> created at line 39.
+    Found 1-bit adder carry out for signal <$n0176> created at line 31.
+    Found 1-bit adder carry out for signal <$n0177> created at line 39.
+    Found 1311 1-bit 2-to-1 multiplexers.
+    Summary:
+	inferred  51 Adder/Subtracter(s).
+	inferred  21 Comparator(s).
+	inferred 1311 Multiplexer(s).
+Unit <decoder> synthesized.
+
+
+Synthesizing Unit <wrdivider>.
+    Related source file is D:/termproject/wrdivider.vhd.
+    Found 32-bit up counter for signal <count>.
+    Found 1-bit register for signal <int_clock>.
+    Summary:
+	inferred   1 Counter(s).
+	inferred   1 D-type flip-flop(s).
+Unit <wrdivider> synthesized.
+
+
+Synthesizing Unit <vgadriver>.
+    Related source file is D:/termproject/vgadriver.vhd.
+    Found 10-bit adder for signal <$n0012> created at line 78.
+    Found 10-bit subtractor for signal <$n0013> created at line 79.
+    Found 10-bit comparator greater for signal <$n0015> created at line 86.
+    Found 10-bit comparator less for signal <$n0016> created at line 86.
+    Found 10-bit comparator less for signal <$n0027> created at line 86.
+    Found 10-bit comparator greater for signal <$n0028> created at line 86.
+    Found 10-bit comparator less for signal <$n0029> created at line 86.
+    Found 10-bit comparator greater for signal <$n0030> created at line 86.
+    Found 10-bit comparator greater for signal <$n0031> created at line 86.
+    Found 10-bit comparator less for signal <$n0032> created at line 86.
+    Found 10-bit comparator less for signal <$n0034> created at line 84.
+    Found 10-bit comparator greater for signal <$n0036> created at line 85.
+    Found 10-bit comparator less for signal <$n0037> created at line 101.
+    Found 10-bit comparator greater for signal <$n0038> created at line 101.
+    Found 10-bit comparator less for signal <$n0039> created at line 101.
+    Found 10-bit comparator greater for signal <$n0040> created at line 101.
+    Found 1-bit register for signal <clkdiv>.
+    Found 10-bit up counter for signal <hc>.
+    Found 10-bit subtractor for signal <temp3>.
+    Found 10-bit up counter for signal <vc>.
+    Found 1-bit register for signal <vsenable>.
+    Summary:
+	inferred   2 Counter(s).
+	inferred   2 D-type flip-flop(s).
+	inferred   3 Adder/Subtracter(s).
+	inferred  14 Comparator(s).
+Unit <vgadriver> synthesized.
+
+
+Synthesizing Unit <keyboarddriver>.
+    Related source file is D:/termproject/keyboardriver.vhd.
+    Found 8-bit register for signal <WaitReg>.
+    Found 13-bit up counter for signal <clkDiv>.
+    Found 1-bit register for signal <KCI>.
+    Found 1-bit register for signal <KDI>.
+    Found 3-bit shift register for signal <shiftRegSig1<8>>.
+    Found 7-bit register for signal <shiftRegSig1<7:1>>.
+    Found 4-bit shift register for signal <shiftRegSig2<8>>.
+    Found 7-bit register for signal <shiftRegSig2<7:1>>.
+    Summary:
+	inferred   1 Counter(s).
+	inferred  24 D-type flip-flop(s).
+	inferred   2 Shift register(s).
+Unit <keyboarddriver> synthesized.
+
+
+Synthesizing Unit <segmentdriver>.
+    Related source file is D:/termproject/segmentdriver.vhd.
+Unit <segmentdriver> synthesized.
+
+
+Synthesizing Unit <commander>.
+    Related source file is D:/termproject/Commander.vhd.
+WARNING:Xst:647 - Input <intr> is never used.
+WARNING:Xst:737 - Found 8-bit latch for signal <temptemprature>.
+Unit <commander> synthesized.
+
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Advanced RAM inference ...
+Advanced multiplier inference ...
+Advanced Registered AddSub inference ...
+Dynamic shift register inference ...
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Adders/Subtractors               : 55
+ 10-bit adder                      : 1
+ 10-bit subtractor                 : 3
+ 28-bit subtractor                 : 1
+ 27-bit subtractor                 : 1
+ 26-bit subtractor                 : 1
+ 25-bit subtractor                 : 1
+ 24-bit subtractor                 : 1
+ 23-bit subtractor                 : 1
+ 22-bit subtractor                 : 1
+ 21-bit subtractor                 : 1
+ 20-bit subtractor                 : 1
+ 19-bit subtractor                 : 1
+ 18-bit subtractor                 : 1
+ 17-bit subtractor                 : 1
+ 16-bit subtractor                 : 1
+ 15-bit subtractor                 : 1
+ 14-bit subtractor                 : 1
+ 13-bit subtractor                 : 1
+ 33-bit adder                      : 11
+ 12-bit subtractor                 : 1
+ 11-bit subtractor                 : 1
+ 9-bit subtractor                  : 1
+ 29-bit subtractor                 : 1
+ 32-bit adder                      : 16
+ 1-bit adder carry out             : 2
+ 2-bit adder                       : 2
+# Counters                         : 5
+ 13-bit up counter                 : 1
+ 10-bit up counter                 : 2
+ 32-bit up counter                 : 1
+ 26-bit up counter                 : 1
+# Registers                        : 24
+ 8-bit register                    : 1
+ 1-bit register                    : 20
+ 4-bit register                    : 2
+ 32-bit register                   : 1
+# Latches                          : 2
+ 8-bit latch                       : 1
+ 7-bit latch                       : 1
+# Shift Registers                  : 2
+ 3-bit shift register              : 1
+ 4-bit shift register              : 1
+# Comparators                      : 39
+ 10-bit comparator greater         : 8
+ 10-bit comparator less            : 7
+ 28-bit comparator greater         : 1
+ 27-bit comparator greater         : 1
+ 26-bit comparator greater         : 1
+ 25-bit comparator greater         : 1
+ 24-bit comparator greater         : 1
+ 23-bit comparator greater         : 1
+ 22-bit comparator greater         : 1
+ 21-bit comparator greater         : 1
+ 20-bit comparator greater         : 1
+ 19-bit comparator greater         : 1
+ 17-bit comparator greater         : 1
+ 16-bit comparator greater         : 1
+ 15-bit comparator greater         : 1
+ 14-bit comparator greater         : 1
+ 13-bit comparator greater         : 1
+ 12-bit comparator greater         : 1
+ 11-bit comparator greater         : 1
+ 9-bit comparator greater          : 1
+ 18-bit comparator greater         : 1
+ 8-bit comparator greater          : 1
+ 32-bit comparator less            : 4
+# Multiplexers                     : 49
+ 32-bit 2-to-1 multiplexer         : 16
+ 28-bit 2-to-1 multiplexer         : 1
+ 33-bit 2-to-1 multiplexer         : 13
+ 27-bit 2-to-1 multiplexer         : 1
+ 26-bit 2-to-1 multiplexer         : 1
+ 25-bit 2-to-1 multiplexer         : 1
+ 24-bit 2-to-1 multiplexer         : 1
+ 23-bit 2-to-1 multiplexer         : 1
+ 22-bit 2-to-1 multiplexer         : 1
+ 21-bit 2-to-1 multiplexer         : 1
+ 20-bit 2-to-1 multiplexer         : 1
+ 19-bit 2-to-1 multiplexer         : 1
+ 18-bit 2-to-1 multiplexer         : 1
+ 17-bit 2-to-1 multiplexer         : 1
+ 16-bit 2-to-1 multiplexer         : 1
+ 15-bit 2-to-1 multiplexer         : 1
+ 14-bit 2-to-1 multiplexer         : 1
+ 13-bit 2-to-1 multiplexer         : 1
+ 12-bit 2-to-1 multiplexer         : 1
+ 11-bit 2-to-1 multiplexer         : 1
+ 10-bit 2-to-1 multiplexer         : 1
+ 9-bit 2-to-1 multiplexer          : 1
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+WARNING:Xst:1291 - FF/Latch <clkDiv_12> is unconnected in block <keyboarddriver>.
+WARNING:Xst:1291 - FF/Latch <clkDiv_4> is unconnected in block <keyboarddriver>.
+WARNING:Xst:1291 - FF/Latch <clkDiv_5> is unconnected in block <keyboarddriver>.
+WARNING:Xst:1291 - FF/Latch <clkDiv_6> is unconnected in block <keyboarddriver>.
+WARNING:Xst:1291 - FF/Latch <clkDiv_7> is unconnected in block <keyboarddriver>.
+WARNING:Xst:1291 - FF/Latch <clkDiv_8> is unconnected in block <keyboarddriver>.
+WARNING:Xst:1291 - FF/Latch <clkDiv_9> is unconnected in block <keyboarddriver>.
+WARNING:Xst:1291 - FF/Latch <clkDiv_10> is unconnected in block <keyboarddriver>.
+WARNING:Xst:1291 - FF/Latch <clkDiv_11> is unconnected in block <keyboarddriver>.
+
+Optimizing unit <commander> ...
+
+Optimizing unit <keyboarddriver> ...
+
+Optimizing unit <vgadriver> ...
+
+Optimizing unit <wrdivider> ...
+
+Optimizing unit <decoder> ...
+
+Optimizing unit <divider> ...
+
+Optimizing unit <segment> ...
+Loading device for application Xst from file 'v50.nph' in environment C:/Xilinx.
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block commander, actual ratio is 109.
+Optimizing block <commander> to meet ratio 100 (+ 5) of 768 slices :
+Area constraint is met for block <commander>, final ratio is 105.
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : commander.ngr
+Top Level Output File Name         : commander
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : NO
+
+Design Statistics
+# IOs                              : 31
+
+Macro Statistics :
+# Registers                        : 32
+#      1-bit register              : 24
+#      32-bit register             : 6
+#      4-bit register              : 1
+#      8-bit register              : 1
+# Shift Registers                  : 2
+#      3-bit shift register        : 1
+#      4-bit shift register        : 1
+# Multiplexers                     : 49
+#      2-to-1 multiplexer          : 49
+# Adders/Subtractors               : 56
+#      10-bit adder                : 1
+#      10-bit subtractor           : 3
+#      11-bit subtractor           : 1
+#      12-bit subtractor           : 1
+#      13-bit subtractor           : 1
+#      14-bit subtractor           : 1
+#      15-bit subtractor           : 1
+#      16-bit subtractor           : 1
+#      17-bit subtractor           : 1
+#      18-bit subtractor           : 1
+#      19-bit subtractor           : 1
+#      20-bit subtractor           : 1
+#      21-bit subtractor           : 1
+#      22-bit subtractor           : 1
+#      23-bit subtractor           : 1
+#      24-bit subtractor           : 1
+#      25-bit subtractor           : 1
+#      26-bit subtractor           : 1
+#      27-bit subtractor           : 1
+#      28-bit subtractor           : 1
+#      29-bit subtractor           : 1
+#      32-bit adder                : 21
+#      33-bit adder                : 11
+#      9-bit subtractor            : 1
+# Comparators                      : 39
+#      10-bit comparator greater   : 8
+#      10-bit comparator less      : 7
+#      11-bit comparator greater   : 1
+#      12-bit comparator greater   : 1
+#      13-bit comparator greater   : 1
+#      14-bit comparator greater   : 1
+#      15-bit comparator greater   : 1
+#      16-bit comparator greater   : 1
+#      17-bit comparator greater   : 1
+#      18-bit comparator greater   : 1
+#      19-bit comparator greater   : 1
+#      20-bit comparator greater   : 1
+#      21-bit comparator greater   : 1
+#      22-bit comparator greater   : 1
+#      23-bit comparator greater   : 1
+#      24-bit comparator greater   : 1
+#      25-bit comparator greater   : 1
+#      26-bit comparator greater   : 1
+#      27-bit comparator greater   : 1
+#      28-bit comparator greater   : 1
+#      32-bit comparator less      : 4
+#      8-bit comparator greater    : 1
+#      9-bit comparator greater    : 1
+
+Cell Usage :
+# BELS                             : 2506
+#      GND                         : 1
+#      LUT1                        : 104
+#      LUT1_D                      : 1
+#      LUT1_L                      : 30
+#      LUT2                        : 50
+#      LUT2_L                      : 2
+#      LUT3                        : 794
+#      LUT3_L                      : 3
+#      LUT4                        : 290
+#      LUT4_D                      : 1
+#      LUT4_L                      : 13
+#      MUXCY                       : 680
+#      MUXF5                       : 1
+#      VCC                         : 1
+#      XORCY                       : 535
+# FlipFlops/Latches                : 167
+#      FD                          : 38
+#      FD_1                        : 14
+#      FDE                         : 14
+#      FDE_1                       : 2
+#      FDR                         : 70
+#      FDRE                        : 11
+#      FDSE                        : 3
+#      LD                          : 15
+# Shifters                         : 2
+#      SRL16E_1                    : 2
+# Clock Buffers                    : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 29
+#      IBUF                        : 10
+#      OBUF                        : 19
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 2s50pq208-6 
+
+ Number of Slices:                     788  out of    768   102% (*) 
+ Number of Slice Flip Flops:           167  out of   1536    10%  
+ Number of 4 input LUTs:              1290  out of   1536    83%  
+ Number of bonded IOBs:                 29  out of    144    20%  
+ Number of GCLKs:                        1  out of      4    25%  
+
+WARNING:Xst:1336 -  (*) More than 100% of Device resources are used
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+tempon(tempon57:O)                 | NONE(*)(temptemprature_5)| 8     |
+keyb_KCI:Q                         | NONE                   | 26    |
+keyb_clkDiv_3:Q                    | NONE                   | 2     |
+clkx                               | BUFGP                  | 65    |
+vga_clkdiv:Q                       | NONE                   | 21    |
+seg_div_int_clock:Q                | NONE                   | 40    |
+seg_seg__n0019(seg_seg__n00191:O)  | NONE(*)(seg_seg_segments_6)| 7     |
+-----------------------------------+------------------------+-------+
+(*) These 2 clock signal(s) are generated by combinatorial logic,
+and XST is not able to identify which are the primary clock signals.
+Please use the CLOCK_SIGNAL constraint to specify the clock signal(s) generated by combinatorial logic.
+
+Timing Summary:
+---------------
+Speed Grade: -6
+
+   Minimum period: 18.163ns (Maximum Frequency: 55.057MHz)
+   Minimum input arrival time before clock: 2.520ns
+   Maximum output required time after clock: 24.688ns
+   Maximum combinational path delay: No path found
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+-------------------------------------------------------------------------
+Timing constraint: Default period analysis for Clock 'keyb_KCI:Q'
+Delay:               7.155ns (Levels of Logic = 2)
+  Source:            keyb_shiftRegSig2_5 (FF)
+  Destination:       keyb_WaitReg_7 (FF)
+  Source Clock:      keyb_KCI:Q falling
+  Destination Clock: keyb_KCI:Q rising
+
+  Data Path: keyb_shiftRegSig2_5 to keyb_WaitReg_7
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FD_1:C->Q             2   1.085   1.206  keyb_shiftRegSig2_5 (keyb_shiftRegSig2_5)
+     LUT4:I0->O            1   0.549   1.035  keyb__n00004 (CHOICE1643)
+     LUT2:I0->O            8   0.549   1.845  keyb__n000018 (keyb__n0000)
+     FDE:CE                    0.886          keyb_WaitReg_0
+    ----------------------------------------
+    Total                      7.155ns (3.069ns logic, 4.086ns route)
+                                       (42.9% logic, 57.1% route)
+
+-------------------------------------------------------------------------
+Timing constraint: Default period analysis for Clock 'clkx'
+Delay:               10.359ns (Levels of Logic = 3)
+  Source:            wrd_count_24 (FF)
+  Destination:       wrd_int_clock (FF)
+  Source Clock:      clkx rising
+  Destination Clock: clkx rising
+
+  Data Path: wrd_count_24 to wrd_int_clock
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDR:C->Q              2   1.085   1.206  wrd_count_24 (wrd_count_24)
+     LUT4:I0->O            1   0.549   1.035  wrd__n000137 (CHOICE1605)
+     LUT2:I0->O            1   0.549   1.035  wrd__n000151 (CHOICE1613)
+     LUT4:I2->O           33   0.549   3.465  wrd__n0001154 (wrd__n0001)
+     FDE:CE                    0.886          wrd_int_clock
+    ----------------------------------------
+    Total                     10.359ns (3.618ns logic, 6.741ns route)
+                                       (34.9% logic, 65.1% route)
+
+-------------------------------------------------------------------------
+Timing constraint: Default period analysis for Clock 'vga_clkdiv:Q'
+Delay:               9.937ns (Levels of Logic = 3)
+  Source:            vga_vc_7 (FF)
+  Destination:       vga_vc_1 (FF)
+  Source Clock:      vga_clkdiv:Q rising
+  Destination Clock: vga_clkdiv:Q rising
+
+  Data Path: vga_vc_7 to vga_vc_1
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDRE:C->Q            13   1.085   2.250  vga_vc_7 (vga_vc_7)
+     LUT4:I2->O            1   0.549   1.035  vga_Ker14962_SW0 (N39486)
+     LUT4:I3->O            2   0.549   1.206  vga_Ker14962 (vga_N14964)
+     LUT4:I0->O           10   0.549   1.980  vga__n0006 (vga__n0006)
+     FDRE:R                    0.734          vga_vc_0
+    ----------------------------------------
+    Total                      9.937ns (3.466ns logic, 6.471ns route)
+                                       (34.9% logic, 65.1% route)
+
+-------------------------------------------------------------------------
+Timing constraint: Default period analysis for Clock 'seg_div_int_clock:Q'
+Delay:               18.163ns (Levels of Logic = 41)
+  Source:            seg_seg_counter_0 (FF)
+  Destination:       seg_seg_choose_1 (FF)
+  Source Clock:      seg_div_int_clock:Q rising
+  Destination Clock: seg_div_int_clock:Q rising
+
+  Data Path: seg_seg_counter_0 to seg_seg_choose_1
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FD:C->Q               2   1.085   1.206  seg_seg_counter_0 (seg_seg_counter_0)
+     LUT1_D:I0->LO         1   0.549   0.000  seg_seg_segment__n0030<0>lut (N42279)
+     MUXCY:S->O            1   0.659   0.000  seg_seg_segment__n0030<0>cy (seg_seg_segment__n0030<0>_cyo)
+     MUXCY:CI->O           1   0.042   0.000  seg_seg_segment__n0030<1>cy (seg_seg_segment__n0030<1>_cyo)
+     MUXCY:CI->O           1   0.042   0.000  seg_seg_segment__n0030<2>cy (seg_seg_segment__n0030<2>_cyo)
+     MUXCY:CI->O           1   0.042   0.000  seg_seg_segment__n0030<3>cy (seg_seg_segment__n0030<3>_cyo)
+     MUXCY:CI->O           1   0.042   0.000  seg_seg_segment__n0030<4>cy (seg_seg_segment__n0030<4>_cyo)
+     MUXCY:CI->O           1   0.042   0.000  seg_seg_segment__n0030<5>cy (seg_seg_segment__n0030<5>_cyo)
+     MUXCY:CI->O           1   0.042   0.000  seg_seg_segment__n0030<6>cy (seg_seg_segment__n0030<6>_cyo)
+     MUXCY:CI->O           1   0.042   0.000  seg_seg_segment__n0030<7>cy (seg_seg_segment__n0030<7>_cyo)
+     MUXCY:CI->O           1   0.042   0.000  seg_seg_segment__n0030<8>cy (seg_seg_segment__n0030<8>_cyo)
+     MUXCY:CI->O           1   0.042   0.000  seg_seg_segment__n0030<9>cy (seg_seg_segment__n0030<9>_cyo)
+     MUXCY:CI->O           1   0.042   0.000  seg_seg_segment__n0030<10>cy (seg_seg_segment__n0030<10>_cyo)
+     MUXCY:CI->O           1   0.042   0.000  seg_seg_segment__n0030<11>cy (seg_seg_segment__n0030<11>_cyo)
+     MUXCY:CI->O           1   0.042   0.000  seg_seg_segment__n0030<12>cy (seg_seg_segment__n0030<12>_cyo)
+     MUXCY:CI->O           1   0.042   0.000  seg_seg_segment__n0030<13>cy (seg_seg_segment__n0030<13>_cyo)
+     MUXCY:CI->O           1   0.042   0.000  seg_seg_segment__n0030<14>cy (seg_seg_segment__n0030<14>_cyo)
+     MUXCY:CI->O           1   0.042   0.000  seg_seg_segment__n0030<15>cy (seg_seg_segment__n0030<15>_cyo)
+     MUXCY:CI->O           1   0.042   0.000  seg_seg_segment__n0030<16>cy (seg_seg_segment__n0030<16>_cyo)
+     MUXCY:CI->O           1   0.042   0.000  seg_seg_segment__n0030<17>cy (seg_seg_segment__n0030<17>_cyo)
+     MUXCY:CI->O           1   0.042   0.000  seg_seg_segment__n0030<18>cy (seg_seg_segment__n0030<18>_cyo)
+     MUXCY:CI->O           1   0.042   0.000  seg_seg_segment__n0030<19>cy (seg_seg_segment__n0030<19>_cyo)
+     MUXCY:CI->O           1   0.042   0.000  seg_seg_segment__n0030<20>cy (seg_seg_segment__n0030<20>_cyo)
+     MUXCY:CI->O           1   0.042   0.000  seg_seg_segment__n0030<21>cy (seg_seg_segment__n0030<21>_cyo)
+     MUXCY:CI->O           1   0.042   0.000  seg_seg_segment__n0030<22>cy (seg_seg_segment__n0030<22>_cyo)
+     MUXCY:CI->O           1   0.042   0.000  seg_seg_segment__n0030<23>cy (seg_seg_segment__n0030<23>_cyo)
+     MUXCY:CI->O           1   0.042   0.000  seg_seg_segment__n0030<24>cy (seg_seg_segment__n0030<24>_cyo)
+     XORCY:CI->O           6   0.420   1.665  seg_seg_segment__n0030<25>_xor (seg_seg__n0030<25>)
+     LUT4:I0->O            1   0.549   1.035  seg_seg__n0000<4>11_SW0 (N42228)
+     LUT4:I3->O            1   0.549   1.035  seg_seg__n0000<4>47 (CHOICE1746)
+     LUT4_D:I1->O          4   0.549   1.440  seg_seg__n0000<4>128 (seg_seg__n0000<4>)
+     LUT4_L:I0->LO         1   0.549   0.000  seg_seg_norlut7 (seg_seg_N8131)
+     MUXCY:S->O            1   0.659   0.000  seg_seg_norcy_rn_6 (seg_seg_nor_cyo7)
+     MUXCY:CI->O           1   0.042   0.000  seg_seg_norcy_rn_7 (seg_seg_nor_cyo8)
+     MUXCY:CI->O           1   0.042   0.000  seg_seg_norcy_rn_8 (seg_seg_nor_cyo9)
+     MUXCY:CI->O           1   0.042   0.000  seg_seg_norcy_rn_9 (seg_seg_nor_cyo10)
+     MUXCY:CI->O           1   0.042   0.000  seg_seg_norcy_rn_10 (seg_seg_nor_cyo11)
+     MUXCY:CI->O           1   0.042   0.000  seg_seg_norcy_rn_11 (seg_seg_nor_cyo12)
+     MUXCY:CI->O           1   0.042   0.000  seg_seg_norcy_rn_12 (seg_seg_nor_cyo13)
+     MUXCY:CI->O          11   0.042   2.070  seg_seg_GE_stagecy_rn_0 (seg_seg_GE_stage_cyo1)
+     LUT3:I2->O            1   0.549   1.035  seg_seg__n0014<3>43 (CHOICE1727)
+     LUT4_L:I2->LO         1   0.549   0.000  seg_seg__n0014<3>80 (seg_seg__n0014<3>)
+     FDE:D                     0.709          seg_seg_choose_3
+    ----------------------------------------
+    Total                     18.163ns (8.677ns logic, 9.486ns route)
+                                       (47.8% logic, 52.2% route)
+
+-------------------------------------------------------------------------
+Timing constraint: Default OFFSET IN BEFORE for Clock 'tempon57:O'
+Offset:              2.520ns (Levels of Logic = 1)
+  Source:            temprature<3> (PAD)
+  Destination:       temptemprature_3 (LATCH)
+  Destination Clock: tempon57:O falling
+
+  Data Path: temprature<3> to temptemprature_3
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             1   0.776   1.035  temprature_3_IBUF (temprature_3_IBUF)
+     LD:D                      0.709          temptemprature_3
+    ----------------------------------------
+    Total                      2.520ns (1.485ns logic, 1.035ns route)
+                                       (58.9% logic, 41.1% route)
+
+-------------------------------------------------------------------------
+Timing constraint: Default OFFSET IN BEFORE for Clock 'keyb_clkDiv_3:Q'
+Offset:              2.520ns (Levels of Logic = 1)
+  Source:            kcx (PAD)
+  Destination:       keyb_KCI (FF)
+  Destination Clock: keyb_clkDiv_3:Q rising
+
+  Data Path: kcx to keyb_KCI
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             1   0.776   1.035  kcx_IBUF (kcx_IBUF)
+     FD:D                      0.709          keyb_KCI
+    ----------------------------------------
+    Total                      2.520ns (1.485ns logic, 1.035ns route)
+                                       (58.9% logic, 41.1% route)
+
+-------------------------------------------------------------------------
+Timing constraint: Default OFFSET OUT AFTER for Clock 'vga_clkdiv:Q'
+Offset:              20.837ns (Levels of Logic = 9)
+  Source:            vga_vc_3 (FF)
+  Destination:       blux (PAD)
+  Source Clock:      vga_clkdiv:Q rising
+
+  Data Path: vga_vc_3 to blux
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDRE:C->Q            11   1.085   2.070  vga_vc_3 (vga_vc_3)
+     LUT4:I3->O            1   0.549   1.035  vga_Ker1496757 (CHOICE1305)
+     LUT4:I2->O            1   0.549   1.035  vga_Ker1496769 (CHOICE1307)
+     LUT3:I1->O            2   0.549   1.206  vga_Ker14967121 (CHOICE1318)
+     LUT3:I1->O            1   0.549   1.035  vga_Ker14967166_SW1 (N41207)
+     LUT4:I2->O            1   0.549   1.035  vga_Ker14967166 (CHOICE1321)
+     LUT4:I2->O            2   0.549   1.206  vga_Ker14967325 (vga_N14969)
+     LUT4:I2->O            1   0.549   1.035  blutemp471 (CHOICE1497)
+     LUT3:I2->O            1   0.549   1.035  blutemp502 (blux_OBUF)
+     OBUF:I->O                 4.668          blux_OBUF (blux)
+    ----------------------------------------
+    Total                     20.837ns (10.145ns logic, 10.692ns route)
+                                       (48.7% logic, 51.3% route)
+
+-------------------------------------------------------------------------
+Timing constraint: Default OFFSET OUT AFTER for Clock 'keyb_KCI:Q'
+Offset:              17.165ns (Levels of Logic = 7)
+  Source:            keyb_WaitReg_6 (FF)
+  Destination:       grnx (PAD)
+  Source Clock:      keyb_KCI:Q rising
+
+  Data Path: keyb_WaitReg_6 to grnx
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDE:C->Q              3   1.085   1.332  keyb_WaitReg_6 (keyb_WaitReg_6)
+     LUT3:I0->O            2   0.549   1.206  Ker131621 (N13164)
+     LUT3:I1->O            1   0.549   1.035  tempmon52 (CHOICE1215)
+     LUT4:I3->O            4   0.549   1.440  tempmon59 (tempmon)
+     LUT4:I3->O            1   0.549   1.035  grntemp88 (CHOICE1275)
+     LUT4:I3->O            1   0.549   1.035  grntemp117 (CHOICE1277)
+     LUT2:I1->O            1   0.549   1.035  grntemp129 (grnx_OBUF)
+     OBUF:I->O                 4.668          grnx_OBUF (grnx)
+    ----------------------------------------
+    Total                     17.165ns (9.047ns logic, 8.118ns route)
+                                       (52.7% logic, 47.3% route)
+
+-------------------------------------------------------------------------
+Timing constraint: Default OFFSET OUT AFTER for Clock 'tempon57:O'
+Offset:              24.688ns (Levels of Logic = 15)
+  Source:            temptemprature_2 (LATCH)
+  Destination:       blux (PAD)
+  Source Clock:      tempon57:O falling
+
+  Data Path: temptemprature_2 to blux
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     LD:G->Q              21   1.194   2.925  temptemprature_2 (temptemprature_2)
+     LUT2:I0->O            3   0.549   1.332  vga_Ker148361 (vga_N14838)
+     LUT4:I3->O            0   0.549   0.000  vga_vgadriver__n0012<6>_xor11 (vga__n0012<6>)
+     MUXCY:DI->O           1   0.265   0.000  vga_vgadriver__n0013<6>cy (vga_vgadriver__n0013<6>_cyo)
+     XORCY:CI->O           1   0.420   1.035  vga_vgadriver__n0013<7>_xor (vga__n0013<7>)
+     LUT2:I0->O            1   0.549   0.000  vga_vgadriver_temp3<7>lut (vga_N4587)
+     MUXCY:S->O            1   0.659   0.000  vga_vgadriver_temp3<7>cy (vga_vgadriver_temp3<7>_cyo)
+     XORCY:CI->O           3   0.420   1.332  vga_vgadriver_temp3<8>_xor (vga_temp3<8>)
+     LUT2:I0->O            1   0.549   0.000  vga_XNor_stagelut8 (vga_N4629)
+     MUXCY:S->O            1   0.659   0.000  vga_XNor_stagecy_rn_7 (vga_XNor_stage_cyo8)
+     MUXCY:CI->O           1   0.042   1.035  vga_XNor_stagecy_rn_8 (vga_XNor_stage_cyo9)
+     LUT4:I3->O            1   0.549   1.035  vga_Ker14967166 (CHOICE1321)
+     LUT4:I2->O            2   0.549   1.206  vga_Ker14967325 (vga_N14969)
+     LUT4:I2->O            1   0.549   1.035  blutemp471 (CHOICE1497)
+     LUT3:I2->O            1   0.549   1.035  blutemp502 (blux_OBUF)
+     OBUF:I->O                 4.668          blux_OBUF (blux)
+    ----------------------------------------
+    Total                     24.688ns (12.719ns logic, 11.970ns route)
+                                       (51.5% logic, 48.5% route)
+
+-------------------------------------------------------------------------
+Timing constraint: Default OFFSET OUT AFTER for Clock 'clkx'
+Offset:              8.543ns (Levels of Logic = 2)
+  Source:            wrd_int_clock (FF)
+  Destination:       wr (PAD)
+  Source Clock:      clkx rising
+
+  Data Path: wrd_int_clock to wr
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDE:C->Q              2   1.085   1.206  wrd_int_clock (wrd_int_clock)
+     LUT2:I0->O            1   0.549   1.035  tempwr1 (wr_OBUF)
+     OBUF:I->O                 4.668          wr_OBUF (wr)
+    ----------------------------------------
+    Total                      8.543ns (6.302ns logic, 2.241ns route)
+                                       (73.8% logic, 26.2% route)
+
+-------------------------------------------------------------------------
+Timing constraint: Default OFFSET OUT AFTER for Clock 'seg_seg__n00191:O'
+Offset:              6.897ns (Levels of Logic = 1)
+  Source:            seg_seg_segments_6 (LATCH)
+  Destination:       segmentx<6> (PAD)
+  Source Clock:      seg_seg__n00191:O falling
+
+  Data Path: seg_seg_segments_6 to segmentx<6>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     LD:G->Q               1   1.194   1.035  seg_seg_segments_6 (seg_seg_segments_6)
+     OBUF:I->O                 4.668          segmentx_6_OBUF (segmentx<6>)
+    ----------------------------------------
+    Total                      6.897ns (5.862ns logic, 1.035ns route)
+                                       (85.0% logic, 15.0% route)
+
+-------------------------------------------------------------------------
+Timing constraint: Default OFFSET OUT AFTER for Clock 'seg_div_int_clock:Q'
+Offset:              6.788ns (Levels of Logic = 1)
+  Source:            seg_seg_selector_3 (FF)
+  Destination:       selectorx<3> (PAD)
+  Source Clock:      seg_div_int_clock:Q rising
+
+  Data Path: seg_seg_selector_3 to selectorx<3>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDSE:C->Q             1   1.085   1.035  seg_seg_selector_3 (seg_seg_selector_3)
+     OBUF:I->O                 4.668          selectorx_3_OBUF (selectorx<3>)
+    ----------------------------------------
+    Total                      6.788ns (5.753ns logic, 1.035ns route)
+                                       (84.8% logic, 15.2% route)
+
+=========================================================================
+CPU : 19.31 / 20.81 s | Elapsed : 19.00 / 20.00 s
+ 
+--> 
+
+Total memory usage is 77020 kilobytes
+
+

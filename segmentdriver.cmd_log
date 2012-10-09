@@ -1,0 +1,2 @@
+xst -intstyle ise -ifn __projnav/segmentdriver.xst -ofn segmentdriver.syr
+xst -intstyle ise -ifn __projnav/segmentdriver.xst -ofn segmentdriver.syr

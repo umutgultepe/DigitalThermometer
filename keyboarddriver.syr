@@ -1,0 +1,178 @@
+Release 6.3.03i - xst G.38
+Copyright (c) 1995-2004 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to __projnav
+CPU : 0.00 / 1.42 s | Elapsed : 0.00 / 1.00 s
+ 
+--> Parameter xsthdpdir set to ./xst
+CPU : 0.00 / 1.42 s | Elapsed : 0.00 / 1.00 s
+ 
+--> Reading design: keyboarddriver.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) HDL Analysis
+  4) HDL Synthesis
+  5) Advanced HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Final Report
+     7.1) Device utilization summary
+     7.2) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : keyboarddriver.prj
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+Verilog Include Directory          : 
+
+---- Target Parameters
+Output File Name                   : keyboarddriver
+Output Format                      : NGC
+Target Device                      : xc2s50-6-pq208
+
+---- Source Options
+Top Module Name                    : keyboarddriver
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+FSM Style                          : lut
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+ROM Style                          : Auto
+Mux Extraction                     : YES
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : YES
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+Resource Sharing                   : YES
+Multiplier Style                   : lut
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100
+Add Generic Clock Buffer(BUFG)     : 4
+Register Duplication               : YES
+Equivalent register Removal        : YES
+Slice Packing                      : YES
+Pack IO Registers into IOBs        : auto
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : NO
+Global Optimization                : AllClockNets
+RTL Output                         : ONLY
+Write Timing Constraints           : NO
+Hierarchy Separator                : _
+Bus Delimiter                      : <>
+Case Specifier                     : maintain
+Slice Utilization Ratio            : 100
+Slice Utilization Ratio Delta      : 5
+
+---- Other Options
+lso                                : keyboarddriver.lso
+Read Cores                         : YES
+cross_clock_analysis               : NO
+verilog2001                        : YES
+Optimize Instantiated Primitives   : NO
+tristate2logic                     : No
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file D:/Xilinx/bin/termproject/keyboardriver.vhd in Library work.
+Architecture behavioral of Entity keyboarddriver is up to date.
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <keyboarddriver> (Architecture <behavioral>).
+Entity <keyboarddriver> analyzed. Unit <keyboarddriver> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <keyboarddriver>.
+    Related source file is D:/Xilinx/bin/termproject/keyboardriver.vhd.
+WARNING:Xst:1780 - Signal <DFF1> is never used or assigned.
+WARNING:Xst:1780 - Signal <DFF2> is never used or assigned.
+WARNING:Xst:646 - Signal <sclk> is assigned but never used.
+    Found 8-bit register for signal <WaitReg>.
+    Found 13-bit up counter for signal <clkDiv>.
+    Found 1-bit register for signal <KCI>.
+    Found 1-bit register for signal <KDI>.
+    Found 3-bit shift register for signal <shiftRegSig1<8>>.
+    Found 7-bit register for signal <shiftRegSig1<7:1>>.
+    Found 4-bit shift register for signal <shiftRegSig2<8>>.
+    Found 7-bit register for signal <shiftRegSig2<7:1>>.
+    Summary:
+	inferred   1 Counter(s).
+	inferred  24 D-type flip-flop(s).
+	inferred   2 Shift register(s).
+Unit <keyboarddriver> synthesized.
+
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Advanced RAM inference ...
+Advanced multiplier inference ...
+Advanced Registered AddSub inference ...
+Dynamic shift register inference ...
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Counters                         : 1
+ 13-bit up counter                 : 1
+# Registers                        : 17
+ 8-bit register                    : 1
+ 1-bit register                    : 16
+# Shift Registers                  : 2
+ 3-bit shift register              : 1
+ 4-bit shift register              : 1
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : keyboarddriver.ngr
+Keep Hierarchy                     : NO
+
+Design Statistics
+# IOs                              : 11
+
+Cell Usage :
+# FlipFlops/Latches                : 37
+#      FD                          : 15
+#      FD_1                        : 14
+#      FDE                         : 8
+=========================================================================
+CPU : 2.42 / 4.69 s | Elapsed : 3.00 / 5.00 s
+ 
+--> 
+
+Total memory usage is 48788 kilobytes
+
+

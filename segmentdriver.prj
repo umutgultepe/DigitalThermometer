@@ -1,0 +1,4 @@
+vhdl work decoder.vhd
+vhdl work divider.vhd
+vhdl work segment.vhd
+vhdl work segmentdriver.vhd

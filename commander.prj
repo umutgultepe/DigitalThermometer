@@ -1,0 +1,8 @@
+vhdl work decoder.vhd
+vhdl work divider.vhd
+vhdl work segment.vhd
+vhdl work segmentdriver.vhd
+vhdl work keyboardriver.vhd
+vhdl work vgadriver.vhd
+vhdl work wrdivider.vhd
+vhdl work Commander.vhd

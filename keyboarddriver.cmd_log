@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn __projnav/keyboarddriver.xst -ofn keyboarddriver.syr

@@ -1,0 +1,1 @@
+set allSynthModules {decoder.MOD divider.MOD segment.MOD segmentdriver.MOD keyboarddriver.MOD vgadriver.MOD wrdivider.MOD commander.MOD}

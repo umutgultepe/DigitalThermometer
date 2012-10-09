@@ -1,0 +1,194 @@
+Release 6.3.03i - xst G.38
+Copyright (c) 1995-2004 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to __projnav
+CPU : 0.01 / 0.90 s | Elapsed : 0.00 / 1.00 s
+ 
+--> Parameter xsthdpdir set to ./xst
+CPU : 0.00 / 0.90 s | Elapsed : 0.00 / 1.00 s
+ 
+--> Reading design: vgadriver.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) HDL Analysis
+  4) HDL Synthesis
+  5) Advanced HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Final Report
+     7.1) Device utilization summary
+     7.2) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : vgadriver.prj
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+Verilog Include Directory          : 
+
+---- Target Parameters
+Output File Name                   : vgadriver
+Output Format                      : NGC
+Target Device                      : xc2s50-6-pq208
+
+---- Source Options
+Top Module Name                    : vgadriver
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+FSM Style                          : lut
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+ROM Style                          : Auto
+Mux Extraction                     : YES
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : YES
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+Resource Sharing                   : YES
+Multiplier Style                   : lut
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100
+Add Generic Clock Buffer(BUFG)     : 4
+Register Duplication               : YES
+Equivalent register Removal        : YES
+Slice Packing                      : YES
+Pack IO Registers into IOBs        : auto
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : NO
+Global Optimization                : AllClockNets
+RTL Output                         : ONLY
+Write Timing Constraints           : NO
+Hierarchy Separator                : _
+Bus Delimiter                      : <>
+Case Specifier                     : maintain
+Slice Utilization Ratio            : 100
+Slice Utilization Ratio Delta      : 5
+
+---- Other Options
+lso                                : vgadriver.lso
+Read Cores                         : YES
+cross_clock_analysis               : NO
+verilog2001                        : YES
+Optimize Instantiated Primitives   : NO
+tristate2logic                     : No
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file D:/Xilinx/bin/termproject/vgadriver.vhd in Library work.
+Architecture behavioral of Entity vgadriver is up to date.
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <vgadriver> (Architecture <behavioral>).
+Entity <vgadriver> analyzed. Unit <vgadriver> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <vgadriver>.
+    Related source file is D:/Xilinx/bin/termproject/vgadriver.vhd.
+    Found 10-bit adder for signal <$n0012> created at line 78.
+    Found 10-bit subtractor for signal <$n0013> created at line 79.
+    Found 10-bit comparator greater for signal <$n0015> created at line 86.
+    Found 10-bit comparator less for signal <$n0016> created at line 86.
+    Found 10-bit comparator less for signal <$n0027> created at line 86.
+    Found 10-bit comparator greater for signal <$n0028> created at line 86.
+    Found 10-bit comparator less for signal <$n0029> created at line 86.
+    Found 10-bit comparator greater for signal <$n0030> created at line 86.
+    Found 10-bit comparator greater for signal <$n0031> created at line 86.
+    Found 10-bit comparator less for signal <$n0032> created at line 86.
+    Found 10-bit comparator less for signal <$n0034> created at line 84.
+    Found 10-bit comparator greater for signal <$n0036> created at line 85.
+    Found 10-bit comparator less for signal <$n0037> created at line 101.
+    Found 10-bit comparator greater for signal <$n0038> created at line 101.
+    Found 10-bit comparator less for signal <$n0039> created at line 101.
+    Found 10-bit comparator greater for signal <$n0040> created at line 101.
+    Found 1-bit register for signal <clkdiv>.
+    Found 10-bit up counter for signal <hc>.
+    Found 10-bit subtractor for signal <temp3>.
+    Found 10-bit up counter for signal <vc>.
+    Found 1-bit register for signal <vsenable>.
+    Summary:
+	inferred   2 Counter(s).
+	inferred   2 D-type flip-flop(s).
+	inferred   3 Adder/Subtracter(s).
+	inferred  14 Comparator(s).
+Unit <vgadriver> synthesized.
+
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Advanced RAM inference ...
+Advanced multiplier inference ...
+Advanced Registered AddSub inference ...
+Dynamic shift register inference ...
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Adders/Subtractors               : 3
+ 10-bit adder                      : 1
+ 10-bit subtractor                 : 2
+# Counters                         : 2
+ 10-bit up counter                 : 2
+# Registers                        : 2
+ 1-bit register                    : 2
+# Comparators                      : 14
+ 10-bit comparator greater         : 7
+ 10-bit comparator less            : 7
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : vgadriver.ngr
+Keep Hierarchy                     : NO
+
+Design Statistics
+# IOs                              : 14
+
+Cell Usage :
+# BELS                             : 2
+#      GND                         : 1
+#      VCC                         : 1
+# FlipFlops/Latches                : 22
+#      FD                          : 1
+#      FDR                         : 1
+#      FDRE                        : 20
+=========================================================================
+CPU : 2.60 / 4.43 s | Elapsed : 2.00 / 4.00 s
+ 
+--> 
+
+Total memory usage is 49812 kilobytes
+
+
